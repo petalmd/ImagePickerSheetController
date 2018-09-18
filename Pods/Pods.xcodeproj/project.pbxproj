@@ -1,0 +1,1058 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0000000005E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0000000005D0 /* Foundation.framework */; };
+		0000000005F0 /* IOHIDEvent+KIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000E0 /* IOHIDEvent+KIF.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000600 /* KIFAccessibilityEnabler.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000110 /* KIFAccessibilityEnabler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000610 /* KIFSystemTestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000130 /* KIFSystemTestActor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000620 /* KIFTestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000150 /* KIFTestActor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000630 /* KIFTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000180 /* KIFTestCase.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000640 /* KIFTestStepValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000001A0 /* KIFTestStepValidation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000650 /* KIFTextInputTraitsOverrides.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000001C0 /* KIFTextInputTraitsOverrides.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000660 /* KIFTypist.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000001E0 /* KIFTypist.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000670 /* KIFUIObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000200 /* KIFUIObject.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000680 /* KIFUITestActor-ConditionalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000220 /* KIFUITestActor-ConditionalTests.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000690 /* KIFUITestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000240 /* KIFUITestActor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000006A0 /* KIFUIViewTestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000270 /* KIFUIViewTestActor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000006B0 /* UIAutomationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000290 /* UIAutomationHelper.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000006C0 /* CAAnimation+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000002B0 /* CAAnimation+KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000006D0 /* CALayer-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000002D0 /* CALayer-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000006E0 /* CGGeometry-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000002F0 /* CGGeometry-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000006F0 /* NSBundle-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000320 /* NSBundle-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000700 /* NSError-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000340 /* NSError-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000710 /* NSException-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000360 /* NSException-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000720 /* NSFileManager-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000380 /* NSFileManager-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000730 /* NSPredicate+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000003A0 /* NSPredicate+KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000740 /* NSString+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000003C0 /* NSString+KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000750 /* UIAccessibilityElement-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000003E0 /* UIAccessibilityElement-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000760 /* UIApplication-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000400 /* UIApplication-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000770 /* UIEvent+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000420 /* UIEvent+KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000780 /* UIScreen+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000440 /* UIScreen+KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000790 /* UIScrollView-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000460 /* UIScrollView-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000007A0 /* UITableView-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000480 /* UITableView-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000007B0 /* UITouch-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000004A0 /* UITouch-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000007C0 /* UIView-Debugging.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000004C0 /* UIView-Debugging.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000007D0 /* UIView-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000004E0 /* UIView-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000007E0 /* UIWindow-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000500 /* UIWindow-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000007F0 /* XCTestCase-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000520 /* XCTestCase-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000800 /* IOHIDEvent+KIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000000D0 /* IOHIDEvent+KIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000810 /* KIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000000F0 /* KIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000820 /* KIFAccessibilityEnabler.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000100 /* KIFAccessibilityEnabler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000830 /* KIFSystemTestActor.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000120 /* KIFSystemTestActor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000840 /* KIFTestActor.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000140 /* KIFTestActor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000850 /* KIFTestActor_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000160 /* KIFTestActor_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000860 /* KIFTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000170 /* KIFTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000870 /* KIFTestStepValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000190 /* KIFTestStepValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000880 /* KIFTextInputTraitsOverrides.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000001B0 /* KIFTextInputTraitsOverrides.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000890 /* KIFTypist.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000001D0 /* KIFTypist.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0000000008A0 /* KIFUIObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000001F0 /* KIFUIObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0000000008B0 /* KIFUITestActor-ConditionalTests.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000210 /* KIFUITestActor-ConditionalTests.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0000000008C0 /* KIFUITestActor.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000230 /* KIFUITestActor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0000000008D0 /* KIFUITestActor_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000250 /* KIFUITestActor_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0000000008E0 /* KIFUIViewTestActor.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000260 /* KIFUIViewTestActor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0000000008F0 /* UIAutomationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000280 /* UIAutomationHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000900 /* CAAnimation+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000002A0 /* CAAnimation+KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000910 /* CALayer-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000002C0 /* CALayer-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000920 /* CGGeometry-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000002E0 /* CGGeometry-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000930 /* LoadableCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000300 /* LoadableCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		000000000940 /* NSBundle-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000310 /* NSBundle-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000950 /* NSError-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000330 /* NSError-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000960 /* NSException-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000350 /* NSException-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000970 /* NSFileManager-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000370 /* NSFileManager-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000980 /* NSPredicate+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000390 /* NSPredicate+KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000990 /* NSString+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000003B0 /* NSString+KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0000000009A0 /* UIAccessibilityElement-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000003D0 /* UIAccessibilityElement-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0000000009B0 /* UIApplication-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000003F0 /* UIApplication-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0000000009C0 /* UIEvent+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000410 /* UIEvent+KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0000000009D0 /* UIScreen+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000430 /* UIScreen+KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0000000009E0 /* UIScrollView-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000450 /* UIScrollView-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0000000009F0 /* UITableView-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000470 /* UITableView-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000A00 /* UITouch-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000490 /* UITouch-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000A10 /* UIView-Debugging.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000004B0 /* UIView-Debugging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000A20 /* UIView-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000004D0 /* UIView-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000A30 /* UIWindow-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000004F0 /* UIWindow-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000A40 /* XCTestCase-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000510 /* XCTestCase-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000A90 /* KIF-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000A80 /* KIF-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000AD0 /* KIF-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000AC0 /* KIF-dummy.m */; };
+		000000000B70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0000000005D0 /* Foundation.framework */; };
+		000000000BE0 /* Pods-ImagePickerSheetController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000BD0 /* Pods-ImagePickerSheetController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000C30 /* Pods-ImagePickerSheetController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000C20 /* Pods-ImagePickerSheetController-dummy.m */; };
+		000000000CD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0000000005D0 /* Foundation.framework */; };
+		000000000D40 /* Pods-ImagePickerSheetControllerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000D30 /* Pods-ImagePickerSheetControllerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000DA0 /* Pods-ImagePickerSheetControllerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000D90 /* Pods-ImagePickerSheetControllerTests-dummy.m */; };
+		000000000DC0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000000000DB0 /* CoreGraphics.framework */; };
+		000000000DE0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000000000DD0 /* QuartzCore.framework */; };
+		000000000E00 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000000000DF0 /* IOKit.framework */; };
+		000000000E20 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000000000E10 /* XCTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		000000000E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000000000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000000000530;
+			remoteInfo = KIF;
+		};
+		000000000E50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000000000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000000000530;
+			remoteInfo = KIF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0000000000B0 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0000000000D0 /* IOHIDEvent+KIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IOHIDEvent+KIF.h"; path = "Classes/IOHIDEvent+KIF.h"; sourceTree = "<group>"; };
+		0000000000E0 /* IOHIDEvent+KIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IOHIDEvent+KIF.m"; path = "Classes/IOHIDEvent+KIF.m"; sourceTree = "<group>"; };
+		0000000000F0 /* KIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIF.h; path = Classes/KIF.h; sourceTree = "<group>"; };
+		000000000100 /* KIFAccessibilityEnabler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFAccessibilityEnabler.h; path = Classes/KIFAccessibilityEnabler.h; sourceTree = "<group>"; };
+		000000000110 /* KIFAccessibilityEnabler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFAccessibilityEnabler.m; path = Classes/KIFAccessibilityEnabler.m; sourceTree = "<group>"; };
+		000000000120 /* KIFSystemTestActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFSystemTestActor.h; path = Classes/KIFSystemTestActor.h; sourceTree = "<group>"; };
+		000000000130 /* KIFSystemTestActor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFSystemTestActor.m; path = Classes/KIFSystemTestActor.m; sourceTree = "<group>"; };
+		000000000140 /* KIFTestActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTestActor.h; path = Classes/KIFTestActor.h; sourceTree = "<group>"; };
+		000000000150 /* KIFTestActor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTestActor.m; path = Classes/KIFTestActor.m; sourceTree = "<group>"; };
+		000000000160 /* KIFTestActor_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTestActor_Private.h; path = Classes/KIFTestActor_Private.h; sourceTree = "<group>"; };
+		000000000170 /* KIFTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTestCase.h; path = Classes/KIFTestCase.h; sourceTree = "<group>"; };
+		000000000180 /* KIFTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTestCase.m; path = Classes/KIFTestCase.m; sourceTree = "<group>"; };
+		000000000190 /* KIFTestStepValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTestStepValidation.h; path = Classes/KIFTestStepValidation.h; sourceTree = "<group>"; };
+		0000000001A0 /* KIFTestStepValidation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTestStepValidation.m; path = Classes/KIFTestStepValidation.m; sourceTree = "<group>"; };
+		0000000001B0 /* KIFTextInputTraitsOverrides.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTextInputTraitsOverrides.h; path = Classes/KIFTextInputTraitsOverrides.h; sourceTree = "<group>"; };
+		0000000001C0 /* KIFTextInputTraitsOverrides.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTextInputTraitsOverrides.m; path = Classes/KIFTextInputTraitsOverrides.m; sourceTree = "<group>"; };
+		0000000001D0 /* KIFTypist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTypist.h; path = Classes/KIFTypist.h; sourceTree = "<group>"; };
+		0000000001E0 /* KIFTypist.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTypist.m; path = Classes/KIFTypist.m; sourceTree = "<group>"; };
+		0000000001F0 /* KIFUIObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFUIObject.h; path = Classes/KIFUIObject.h; sourceTree = "<group>"; };
+		000000000200 /* KIFUIObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFUIObject.m; path = Classes/KIFUIObject.m; sourceTree = "<group>"; };
+		000000000210 /* KIFUITestActor-ConditionalTests.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "KIFUITestActor-ConditionalTests.h"; path = "Classes/KIFUITestActor-ConditionalTests.h"; sourceTree = "<group>"; };
+		000000000220 /* KIFUITestActor-ConditionalTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "KIFUITestActor-ConditionalTests.m"; path = "Classes/KIFUITestActor-ConditionalTests.m"; sourceTree = "<group>"; };
+		000000000230 /* KIFUITestActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFUITestActor.h; path = Classes/KIFUITestActor.h; sourceTree = "<group>"; };
+		000000000240 /* KIFUITestActor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFUITestActor.m; path = Classes/KIFUITestActor.m; sourceTree = "<group>"; };
+		000000000250 /* KIFUITestActor_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFUITestActor_Private.h; path = Classes/KIFUITestActor_Private.h; sourceTree = "<group>"; };
+		000000000260 /* KIFUIViewTestActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFUIViewTestActor.h; path = Classes/KIFUIViewTestActor.h; sourceTree = "<group>"; };
+		000000000270 /* KIFUIViewTestActor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFUIViewTestActor.m; path = Classes/KIFUIViewTestActor.m; sourceTree = "<group>"; };
+		000000000280 /* UIAutomationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIAutomationHelper.h; path = Classes/UIAutomationHelper.h; sourceTree = "<group>"; };
+		000000000290 /* UIAutomationHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIAutomationHelper.m; path = Classes/UIAutomationHelper.m; sourceTree = "<group>"; };
+		0000000002A0 /* CAAnimation+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+KIFAdditions.h"; path = "Additions/CAAnimation+KIFAdditions.h"; sourceTree = "<group>"; };
+		0000000002B0 /* CAAnimation+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+KIFAdditions.m"; path = "Additions/CAAnimation+KIFAdditions.m"; sourceTree = "<group>"; };
+		0000000002C0 /* CALayer-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer-KIFAdditions.h"; path = "Additions/CALayer-KIFAdditions.h"; sourceTree = "<group>"; };
+		0000000002D0 /* CALayer-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer-KIFAdditions.m"; path = "Additions/CALayer-KIFAdditions.m"; sourceTree = "<group>"; };
+		0000000002E0 /* CGGeometry-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CGGeometry-KIFAdditions.h"; path = "Additions/CGGeometry-KIFAdditions.h"; sourceTree = "<group>"; };
+		0000000002F0 /* CGGeometry-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CGGeometry-KIFAdditions.m"; path = "Additions/CGGeometry-KIFAdditions.m"; sourceTree = "<group>"; };
+		000000000300 /* LoadableCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoadableCategory.h; path = Additions/LoadableCategory.h; sourceTree = "<group>"; };
+		000000000310 /* NSBundle-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle-KIFAdditions.h"; path = "Additions/NSBundle-KIFAdditions.h"; sourceTree = "<group>"; };
+		000000000320 /* NSBundle-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle-KIFAdditions.m"; path = "Additions/NSBundle-KIFAdditions.m"; sourceTree = "<group>"; };
+		000000000330 /* NSError-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError-KIFAdditions.h"; path = "Additions/NSError-KIFAdditions.h"; sourceTree = "<group>"; };
+		000000000340 /* NSError-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError-KIFAdditions.m"; path = "Additions/NSError-KIFAdditions.m"; sourceTree = "<group>"; };
+		000000000350 /* NSException-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSException-KIFAdditions.h"; path = "Additions/NSException-KIFAdditions.h"; sourceTree = "<group>"; };
+		000000000360 /* NSException-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSException-KIFAdditions.m"; path = "Additions/NSException-KIFAdditions.m"; sourceTree = "<group>"; };
+		000000000370 /* NSFileManager-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager-KIFAdditions.h"; path = "Additions/NSFileManager-KIFAdditions.h"; sourceTree = "<group>"; };
+		000000000380 /* NSFileManager-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager-KIFAdditions.m"; path = "Additions/NSFileManager-KIFAdditions.m"; sourceTree = "<group>"; };
+		000000000390 /* NSPredicate+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPredicate+KIFAdditions.h"; path = "Additions/NSPredicate+KIFAdditions.h"; sourceTree = "<group>"; };
+		0000000003A0 /* NSPredicate+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPredicate+KIFAdditions.m"; path = "Additions/NSPredicate+KIFAdditions.m"; sourceTree = "<group>"; };
+		0000000003B0 /* NSString+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+KIFAdditions.h"; path = "Additions/NSString+KIFAdditions.h"; sourceTree = "<group>"; };
+		0000000003C0 /* NSString+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+KIFAdditions.m"; path = "Additions/NSString+KIFAdditions.m"; sourceTree = "<group>"; };
+		0000000003D0 /* UIAccessibilityElement-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAccessibilityElement-KIFAdditions.h"; path = "Additions/UIAccessibilityElement-KIFAdditions.h"; sourceTree = "<group>"; };
+		0000000003E0 /* UIAccessibilityElement-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAccessibilityElement-KIFAdditions.m"; path = "Additions/UIAccessibilityElement-KIFAdditions.m"; sourceTree = "<group>"; };
+		0000000003F0 /* UIApplication-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication-KIFAdditions.h"; path = "Additions/UIApplication-KIFAdditions.h"; sourceTree = "<group>"; };
+		000000000400 /* UIApplication-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication-KIFAdditions.m"; path = "Additions/UIApplication-KIFAdditions.m"; sourceTree = "<group>"; };
+		000000000410 /* UIEvent+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIEvent+KIFAdditions.h"; path = "Additions/UIEvent+KIFAdditions.h"; sourceTree = "<group>"; };
+		000000000420 /* UIEvent+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIEvent+KIFAdditions.m"; path = "Additions/UIEvent+KIFAdditions.m"; sourceTree = "<group>"; };
+		000000000430 /* UIScreen+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreen+KIFAdditions.h"; path = "Additions/UIScreen+KIFAdditions.h"; sourceTree = "<group>"; };
+		000000000440 /* UIScreen+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+KIFAdditions.m"; path = "Additions/UIScreen+KIFAdditions.m"; sourceTree = "<group>"; };
+		000000000450 /* UIScrollView-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView-KIFAdditions.h"; path = "Additions/UIScrollView-KIFAdditions.h"; sourceTree = "<group>"; };
+		000000000460 /* UIScrollView-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView-KIFAdditions.m"; path = "Additions/UIScrollView-KIFAdditions.m"; sourceTree = "<group>"; };
+		000000000470 /* UITableView-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView-KIFAdditions.h"; path = "Additions/UITableView-KIFAdditions.h"; sourceTree = "<group>"; };
+		000000000480 /* UITableView-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView-KIFAdditions.m"; path = "Additions/UITableView-KIFAdditions.m"; sourceTree = "<group>"; };
+		000000000490 /* UITouch-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITouch-KIFAdditions.h"; path = "Additions/UITouch-KIFAdditions.h"; sourceTree = "<group>"; };
+		0000000004A0 /* UITouch-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITouch-KIFAdditions.m"; path = "Additions/UITouch-KIFAdditions.m"; sourceTree = "<group>"; };
+		0000000004B0 /* UIView-Debugging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView-Debugging.h"; path = "Additions/UIView-Debugging.h"; sourceTree = "<group>"; };
+		0000000004C0 /* UIView-Debugging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView-Debugging.m"; path = "Additions/UIView-Debugging.m"; sourceTree = "<group>"; };
+		0000000004D0 /* UIView-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView-KIFAdditions.h"; path = "Additions/UIView-KIFAdditions.h"; sourceTree = "<group>"; };
+		0000000004E0 /* UIView-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView-KIFAdditions.m"; path = "Additions/UIView-KIFAdditions.m"; sourceTree = "<group>"; };
+		0000000004F0 /* UIWindow-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow-KIFAdditions.h"; path = "Additions/UIWindow-KIFAdditions.h"; sourceTree = "<group>"; };
+		000000000500 /* UIWindow-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow-KIFAdditions.m"; path = "Additions/UIWindow-KIFAdditions.m"; sourceTree = "<group>"; };
+		000000000510 /* XCTestCase-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestCase-KIFAdditions.h"; path = "Additions/XCTestCase-KIFAdditions.h"; sourceTree = "<group>"; };
+		000000000520 /* XCTestCase-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase-KIFAdditions.m"; path = "Additions/XCTestCase-KIFAdditions.m"; sourceTree = "<group>"; };
+		000000000570 /* KIF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KIF.framework; path = KIF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0000000005D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		000000000A60 /* KIF.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KIF.xcconfig; sourceTree = "<group>"; };
+		000000000A70 /* KIF.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KIF.modulemap; sourceTree = "<group>"; };
+		000000000A80 /* KIF-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KIF-umbrella.h"; sourceTree = "<group>"; };
+		000000000AA0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000000000AB0 /* KIF-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KIF-prefix.pch"; sourceTree = "<group>"; };
+		000000000AC0 /* KIF-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KIF-dummy.m"; sourceTree = "<group>"; };
+		000000000B20 /* Pods_ImagePickerSheetController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImagePickerSheetController.framework; path = "Pods-ImagePickerSheetController.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000B90 /* Pods-ImagePickerSheetController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePickerSheetController.release.xcconfig"; sourceTree = "<group>"; };
+		000000000BA0 /* Pods-ImagePickerSheetController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePickerSheetController.debug.xcconfig"; sourceTree = "<group>"; };
+		000000000BB0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000000000BC0 /* Pods-ImagePickerSheetController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImagePickerSheetController.modulemap"; sourceTree = "<group>"; };
+		000000000BD0 /* Pods-ImagePickerSheetController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImagePickerSheetController-umbrella.h"; sourceTree = "<group>"; };
+		000000000BF0 /* Pods-ImagePickerSheetController-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImagePickerSheetController-resources.sh"; sourceTree = "<group>"; };
+		000000000C00 /* Pods-ImagePickerSheetController-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImagePickerSheetController-acknowledgements.plist"; sourceTree = "<group>"; };
+		000000000C10 /* Pods-ImagePickerSheetController-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImagePickerSheetController-acknowledgements.markdown"; sourceTree = "<group>"; };
+		000000000C20 /* Pods-ImagePickerSheetController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImagePickerSheetController-dummy.m"; sourceTree = "<group>"; };
+		000000000C80 /* Pods_ImagePickerSheetControllerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImagePickerSheetControllerTests.framework; path = "Pods-ImagePickerSheetControllerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000CF0 /* Pods-ImagePickerSheetControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePickerSheetControllerTests.release.xcconfig"; sourceTree = "<group>"; };
+		000000000D00 /* Pods-ImagePickerSheetControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePickerSheetControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		000000000D10 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000000000D20 /* Pods-ImagePickerSheetControllerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImagePickerSheetControllerTests.modulemap"; sourceTree = "<group>"; };
+		000000000D30 /* Pods-ImagePickerSheetControllerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImagePickerSheetControllerTests-umbrella.h"; sourceTree = "<group>"; };
+		000000000D50 /* Pods-ImagePickerSheetControllerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImagePickerSheetControllerTests-frameworks.sh"; sourceTree = "<group>"; };
+		000000000D60 /* Pods-ImagePickerSheetControllerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImagePickerSheetControllerTests-resources.sh"; sourceTree = "<group>"; };
+		000000000D70 /* Pods-ImagePickerSheetControllerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImagePickerSheetControllerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		000000000D80 /* Pods-ImagePickerSheetControllerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImagePickerSheetControllerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		000000000D90 /* Pods-ImagePickerSheetControllerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImagePickerSheetControllerTests-dummy.m"; sourceTree = "<group>"; };
+		000000000DB0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		000000000DD0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		000000000DF0 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
+		000000000E10 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0000000005A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000DC0 /* CoreGraphics.framework in Frameworks */,
+				0000000005E0 /* Foundation.framework in Frameworks */,
+				000000000E00 /* IOKit.framework in Frameworks */,
+				000000000DE0 /* QuartzCore.framework in Frameworks */,
+				000000000E20 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000B50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000B70 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000CB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000CD0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000000000010 = {
+			isa = PBXGroup;
+			children = (
+				0000000000B0 /* Podfile */,
+				000000000060 /* Frameworks */,
+				000000000080 /* Pods */,
+				000000000020 /* Products */,
+				000000000070 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		000000000020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000000000570 /* KIF.framework */,
+				000000000B20 /* Pods_ImagePickerSheetController.framework */,
+				000000000C80 /* Pods_ImagePickerSheetControllerTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		000000000060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0000000005C0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		000000000070 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				000000000B80 /* Pods-ImagePickerSheetController */,
+				000000000CE0 /* Pods-ImagePickerSheetControllerTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		000000000080 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0000000000A0 /* KIF */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0000000000A0 /* KIF */ = {
+			isa = PBXGroup;
+			children = (
+				0000000000C0 /* Core */,
+				000000000A50 /* Support Files */,
+			);
+			name = KIF;
+			path = KIF;
+			sourceTree = "<group>";
+		};
+		0000000000C0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0000000002A0 /* CAAnimation+KIFAdditions.h */,
+				0000000002B0 /* CAAnimation+KIFAdditions.m */,
+				0000000002C0 /* CALayer-KIFAdditions.h */,
+				0000000002D0 /* CALayer-KIFAdditions.m */,
+				0000000002E0 /* CGGeometry-KIFAdditions.h */,
+				0000000002F0 /* CGGeometry-KIFAdditions.m */,
+				0000000000D0 /* IOHIDEvent+KIF.h */,
+				0000000000E0 /* IOHIDEvent+KIF.m */,
+				0000000000F0 /* KIF.h */,
+				000000000100 /* KIFAccessibilityEnabler.h */,
+				000000000110 /* KIFAccessibilityEnabler.m */,
+				000000000120 /* KIFSystemTestActor.h */,
+				000000000130 /* KIFSystemTestActor.m */,
+				000000000140 /* KIFTestActor.h */,
+				000000000150 /* KIFTestActor.m */,
+				000000000160 /* KIFTestActor_Private.h */,
+				000000000170 /* KIFTestCase.h */,
+				000000000180 /* KIFTestCase.m */,
+				000000000190 /* KIFTestStepValidation.h */,
+				0000000001A0 /* KIFTestStepValidation.m */,
+				0000000001B0 /* KIFTextInputTraitsOverrides.h */,
+				0000000001C0 /* KIFTextInputTraitsOverrides.m */,
+				0000000001D0 /* KIFTypist.h */,
+				0000000001E0 /* KIFTypist.m */,
+				0000000001F0 /* KIFUIObject.h */,
+				000000000200 /* KIFUIObject.m */,
+				000000000230 /* KIFUITestActor.h */,
+				000000000240 /* KIFUITestActor.m */,
+				000000000210 /* KIFUITestActor-ConditionalTests.h */,
+				000000000220 /* KIFUITestActor-ConditionalTests.m */,
+				000000000250 /* KIFUITestActor_Private.h */,
+				000000000260 /* KIFUIViewTestActor.h */,
+				000000000270 /* KIFUIViewTestActor.m */,
+				000000000300 /* LoadableCategory.h */,
+				000000000310 /* NSBundle-KIFAdditions.h */,
+				000000000320 /* NSBundle-KIFAdditions.m */,
+				000000000330 /* NSError-KIFAdditions.h */,
+				000000000340 /* NSError-KIFAdditions.m */,
+				000000000350 /* NSException-KIFAdditions.h */,
+				000000000360 /* NSException-KIFAdditions.m */,
+				000000000370 /* NSFileManager-KIFAdditions.h */,
+				000000000380 /* NSFileManager-KIFAdditions.m */,
+				000000000390 /* NSPredicate+KIFAdditions.h */,
+				0000000003A0 /* NSPredicate+KIFAdditions.m */,
+				0000000003B0 /* NSString+KIFAdditions.h */,
+				0000000003C0 /* NSString+KIFAdditions.m */,
+				0000000003D0 /* UIAccessibilityElement-KIFAdditions.h */,
+				0000000003E0 /* UIAccessibilityElement-KIFAdditions.m */,
+				0000000003F0 /* UIApplication-KIFAdditions.h */,
+				000000000400 /* UIApplication-KIFAdditions.m */,
+				000000000280 /* UIAutomationHelper.h */,
+				000000000290 /* UIAutomationHelper.m */,
+				000000000410 /* UIEvent+KIFAdditions.h */,
+				000000000420 /* UIEvent+KIFAdditions.m */,
+				000000000430 /* UIScreen+KIFAdditions.h */,
+				000000000440 /* UIScreen+KIFAdditions.m */,
+				000000000450 /* UIScrollView-KIFAdditions.h */,
+				000000000460 /* UIScrollView-KIFAdditions.m */,
+				000000000470 /* UITableView-KIFAdditions.h */,
+				000000000480 /* UITableView-KIFAdditions.m */,
+				000000000490 /* UITouch-KIFAdditions.h */,
+				0000000004A0 /* UITouch-KIFAdditions.m */,
+				0000000004B0 /* UIView-Debugging.h */,
+				0000000004C0 /* UIView-Debugging.m */,
+				0000000004D0 /* UIView-KIFAdditions.h */,
+				0000000004E0 /* UIView-KIFAdditions.m */,
+				0000000004F0 /* UIWindow-KIFAdditions.h */,
+				000000000500 /* UIWindow-KIFAdditions.m */,
+				000000000510 /* XCTestCase-KIFAdditions.h */,
+				000000000520 /* XCTestCase-KIFAdditions.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		0000000005C0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				000000000DB0 /* CoreGraphics.framework */,
+				0000000005D0 /* Foundation.framework */,
+				000000000DF0 /* IOKit.framework */,
+				000000000DD0 /* QuartzCore.framework */,
+				000000000E10 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		000000000A50 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				000000000AA0 /* Info.plist */,
+				000000000A70 /* KIF.modulemap */,
+				000000000A60 /* KIF.xcconfig */,
+				000000000AC0 /* KIF-dummy.m */,
+				000000000AB0 /* KIF-prefix.pch */,
+				000000000A80 /* KIF-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KIF";
+			sourceTree = "<group>";
+		};
+		000000000B80 /* Pods-ImagePickerSheetController */ = {
+			isa = PBXGroup;
+			children = (
+				000000000BB0 /* Info.plist */,
+				000000000BC0 /* Pods-ImagePickerSheetController.modulemap */,
+				000000000C10 /* Pods-ImagePickerSheetController-acknowledgements.markdown */,
+				000000000C00 /* Pods-ImagePickerSheetController-acknowledgements.plist */,
+				000000000C20 /* Pods-ImagePickerSheetController-dummy.m */,
+				000000000BF0 /* Pods-ImagePickerSheetController-resources.sh */,
+				000000000BD0 /* Pods-ImagePickerSheetController-umbrella.h */,
+				000000000BA0 /* Pods-ImagePickerSheetController.debug.xcconfig */,
+				000000000B90 /* Pods-ImagePickerSheetController.release.xcconfig */,
+			);
+			name = "Pods-ImagePickerSheetController";
+			path = "Target Support Files/Pods-ImagePickerSheetController";
+			sourceTree = "<group>";
+		};
+		000000000CE0 /* Pods-ImagePickerSheetControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				000000000D10 /* Info.plist */,
+				000000000D20 /* Pods-ImagePickerSheetControllerTests.modulemap */,
+				000000000D80 /* Pods-ImagePickerSheetControllerTests-acknowledgements.markdown */,
+				000000000D70 /* Pods-ImagePickerSheetControllerTests-acknowledgements.plist */,
+				000000000D90 /* Pods-ImagePickerSheetControllerTests-dummy.m */,
+				000000000D50 /* Pods-ImagePickerSheetControllerTests-frameworks.sh */,
+				000000000D60 /* Pods-ImagePickerSheetControllerTests-resources.sh */,
+				000000000D30 /* Pods-ImagePickerSheetControllerTests-umbrella.h */,
+				000000000D00 /* Pods-ImagePickerSheetControllerTests.debug.xcconfig */,
+				000000000CF0 /* Pods-ImagePickerSheetControllerTests.release.xcconfig */,
+			);
+			name = "Pods-ImagePickerSheetControllerTests";
+			path = "Target Support Files/Pods-ImagePickerSheetControllerTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		000000000580 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000900 /* CAAnimation+KIFAdditions.h in Headers */,
+				000000000910 /* CALayer-KIFAdditions.h in Headers */,
+				000000000920 /* CGGeometry-KIFAdditions.h in Headers */,
+				000000000800 /* IOHIDEvent+KIF.h in Headers */,
+				000000000A90 /* KIF-umbrella.h in Headers */,
+				000000000810 /* KIF.h in Headers */,
+				000000000820 /* KIFAccessibilityEnabler.h in Headers */,
+				000000000830 /* KIFSystemTestActor.h in Headers */,
+				000000000840 /* KIFTestActor.h in Headers */,
+				000000000850 /* KIFTestActor_Private.h in Headers */,
+				000000000860 /* KIFTestCase.h in Headers */,
+				000000000870 /* KIFTestStepValidation.h in Headers */,
+				000000000880 /* KIFTextInputTraitsOverrides.h in Headers */,
+				000000000890 /* KIFTypist.h in Headers */,
+				0000000008A0 /* KIFUIObject.h in Headers */,
+				0000000008B0 /* KIFUITestActor-ConditionalTests.h in Headers */,
+				0000000008C0 /* KIFUITestActor.h in Headers */,
+				0000000008D0 /* KIFUITestActor_Private.h in Headers */,
+				0000000008E0 /* KIFUIViewTestActor.h in Headers */,
+				000000000930 /* LoadableCategory.h in Headers */,
+				000000000940 /* NSBundle-KIFAdditions.h in Headers */,
+				000000000950 /* NSError-KIFAdditions.h in Headers */,
+				000000000960 /* NSException-KIFAdditions.h in Headers */,
+				000000000970 /* NSFileManager-KIFAdditions.h in Headers */,
+				000000000980 /* NSPredicate+KIFAdditions.h in Headers */,
+				000000000990 /* NSString+KIFAdditions.h in Headers */,
+				0000000009A0 /* UIAccessibilityElement-KIFAdditions.h in Headers */,
+				0000000009B0 /* UIApplication-KIFAdditions.h in Headers */,
+				0000000008F0 /* UIAutomationHelper.h in Headers */,
+				0000000009C0 /* UIEvent+KIFAdditions.h in Headers */,
+				0000000009D0 /* UIScreen+KIFAdditions.h in Headers */,
+				0000000009E0 /* UIScrollView-KIFAdditions.h in Headers */,
+				0000000009F0 /* UITableView-KIFAdditions.h in Headers */,
+				000000000A00 /* UITouch-KIFAdditions.h in Headers */,
+				000000000A10 /* UIView-Debugging.h in Headers */,
+				000000000A20 /* UIView-KIFAdditions.h in Headers */,
+				000000000A30 /* UIWindow-KIFAdditions.h in Headers */,
+				000000000A40 /* XCTestCase-KIFAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000B30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000BE0 /* Pods-ImagePickerSheetController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000C90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000D40 /* Pods-ImagePickerSheetControllerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		000000000530 /* KIF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000540 /* Build configuration list for PBXNativeTarget "KIF" */;
+			buildPhases = (
+				000000000580 /* Headers */,
+				000000000590 /* Sources */,
+				0000000005A0 /* Frameworks */,
+				0000000005B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KIF;
+			productName = KIF;
+			productReference = 000000000570 /* KIF.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		000000000AE0 /* Pods-ImagePickerSheetController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000AF0 /* Build configuration list for PBXNativeTarget "Pods-ImagePickerSheetController" */;
+			buildPhases = (
+				000000000B30 /* Headers */,
+				000000000B40 /* Sources */,
+				000000000B50 /* Frameworks */,
+				000000000B60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000000000E40 /* PBXTargetDependency */,
+			);
+			name = "Pods-ImagePickerSheetController";
+			productName = "Pods-ImagePickerSheetController";
+			productReference = 000000000B20 /* Pods_ImagePickerSheetController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		000000000C40 /* Pods-ImagePickerSheetControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000C50 /* Build configuration list for PBXNativeTarget "Pods-ImagePickerSheetControllerTests" */;
+			buildPhases = (
+				000000000C90 /* Headers */,
+				000000000CA0 /* Sources */,
+				000000000CB0 /* Frameworks */,
+				000000000CC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000000000E60 /* PBXTargetDependency */,
+			);
+			name = "Pods-ImagePickerSheetControllerTests";
+			productName = "Pods-ImagePickerSheetControllerTests";
+			productReference = 000000000C80 /* Pods_ImagePickerSheetControllerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 000000000030 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 000000000010;
+			productRefGroup = 000000000020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000000000530 /* KIF */,
+				000000000AE0 /* Pods-ImagePickerSheetController */,
+				000000000C40 /* Pods-ImagePickerSheetControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0000000005B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000B60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000000000590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0000000006C0 /* CAAnimation+KIFAdditions.m in Sources */,
+				0000000006D0 /* CALayer-KIFAdditions.m in Sources */,
+				0000000006E0 /* CGGeometry-KIFAdditions.m in Sources */,
+				0000000005F0 /* IOHIDEvent+KIF.m in Sources */,
+				000000000AD0 /* KIF-dummy.m in Sources */,
+				000000000600 /* KIFAccessibilityEnabler.m in Sources */,
+				000000000610 /* KIFSystemTestActor.m in Sources */,
+				000000000620 /* KIFTestActor.m in Sources */,
+				000000000630 /* KIFTestCase.m in Sources */,
+				000000000640 /* KIFTestStepValidation.m in Sources */,
+				000000000650 /* KIFTextInputTraitsOverrides.m in Sources */,
+				000000000660 /* KIFTypist.m in Sources */,
+				000000000670 /* KIFUIObject.m in Sources */,
+				000000000680 /* KIFUITestActor-ConditionalTests.m in Sources */,
+				000000000690 /* KIFUITestActor.m in Sources */,
+				0000000006A0 /* KIFUIViewTestActor.m in Sources */,
+				0000000006F0 /* NSBundle-KIFAdditions.m in Sources */,
+				000000000700 /* NSError-KIFAdditions.m in Sources */,
+				000000000710 /* NSException-KIFAdditions.m in Sources */,
+				000000000720 /* NSFileManager-KIFAdditions.m in Sources */,
+				000000000730 /* NSPredicate+KIFAdditions.m in Sources */,
+				000000000740 /* NSString+KIFAdditions.m in Sources */,
+				000000000750 /* UIAccessibilityElement-KIFAdditions.m in Sources */,
+				000000000760 /* UIApplication-KIFAdditions.m in Sources */,
+				0000000006B0 /* UIAutomationHelper.m in Sources */,
+				000000000770 /* UIEvent+KIFAdditions.m in Sources */,
+				000000000780 /* UIScreen+KIFAdditions.m in Sources */,
+				000000000790 /* UIScrollView-KIFAdditions.m in Sources */,
+				0000000007A0 /* UITableView-KIFAdditions.m in Sources */,
+				0000000007B0 /* UITouch-KIFAdditions.m in Sources */,
+				0000000007C0 /* UIView-Debugging.m in Sources */,
+				0000000007D0 /* UIView-KIFAdditions.m in Sources */,
+				0000000007E0 /* UIWindow-KIFAdditions.m in Sources */,
+				0000000007F0 /* XCTestCase-KIFAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000B40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000C30 /* Pods-ImagePickerSheetController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000DA0 /* Pods-ImagePickerSheetControllerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		000000000E40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KIF;
+			target = 000000000530 /* KIF */;
+			targetProxy = 000000000E30 /* PBXContainerItemProxy */;
+		};
+		000000000E60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KIF;
+			target = 000000000530 /* KIF */;
+			targetProxy = 000000000E50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		000000000040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		000000000050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		000000000550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 000000000A60 /* KIF.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KIF/KIF-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KIF/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KIF/KIF.modulemap";
+				PRODUCT_MODULE_NAME = KIF;
+				PRODUCT_NAME = KIF;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		000000000560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 000000000A60 /* KIF.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KIF/KIF-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KIF/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KIF/KIF.modulemap";
+				PRODUCT_MODULE_NAME = KIF;
+				PRODUCT_NAME = KIF;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		000000000B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 000000000B90 /* Pods-ImagePickerSheetController.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImagePickerSheetController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImagePickerSheetController/Pods-ImagePickerSheetController.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		000000000B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 000000000BA0 /* Pods-ImagePickerSheetController.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImagePickerSheetController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImagePickerSheetController/Pods-ImagePickerSheetController.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		000000000C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 000000000CF0 /* Pods-ImagePickerSheetControllerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImagePickerSheetControllerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImagePickerSheetControllerTests/Pods-ImagePickerSheetControllerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		000000000C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 000000000D00 /* Pods-ImagePickerSheetControllerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImagePickerSheetControllerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImagePickerSheetControllerTests/Pods-ImagePickerSheetControllerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000000000030 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000040 /* Debug */,
+				000000000050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000000000540 /* Build configuration list for PBXNativeTarget "KIF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000560 /* Debug */,
+				000000000550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000000000AF0 /* Build configuration list for PBXNativeTarget "Pods-ImagePickerSheetController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000B10 /* Debug */,
+				000000000B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000000000C50 /* Build configuration list for PBXNativeTarget "Pods-ImagePickerSheetControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000C70 /* Debug */,
+				000000000C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000000000000 /* Project object */;
+}
