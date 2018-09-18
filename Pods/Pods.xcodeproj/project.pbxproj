@@ -7,241 +7,404 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0000000005E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0000000005D0 /* Foundation.framework */; };
-		0000000005F0 /* IOHIDEvent+KIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000E0 /* IOHIDEvent+KIF.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		000000000600 /* KIFAccessibilityEnabler.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000110 /* KIFAccessibilityEnabler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		000000000610 /* KIFSystemTestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000130 /* KIFSystemTestActor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		000000000620 /* KIFTestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000150 /* KIFTestActor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		000000000630 /* KIFTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000180 /* KIFTestCase.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		000000000640 /* KIFTestStepValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000001A0 /* KIFTestStepValidation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		000000000650 /* KIFTextInputTraitsOverrides.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000001C0 /* KIFTextInputTraitsOverrides.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		000000000660 /* KIFTypist.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000001E0 /* KIFTypist.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		000000000670 /* KIFUIObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000200 /* KIFUIObject.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		000000000680 /* KIFUITestActor-ConditionalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000220 /* KIFUITestActor-ConditionalTests.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		000000000690 /* KIFUITestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000240 /* KIFUITestActor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0000000006A0 /* KIFUIViewTestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000270 /* KIFUIViewTestActor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0000000006B0 /* UIAutomationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000290 /* UIAutomationHelper.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0000000006C0 /* CAAnimation+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000002B0 /* CAAnimation+KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0000000006D0 /* CALayer-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000002D0 /* CALayer-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0000000006E0 /* CGGeometry-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000002F0 /* CGGeometry-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0000000006F0 /* NSBundle-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000320 /* NSBundle-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		000000000700 /* NSError-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000340 /* NSError-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		000000000710 /* NSException-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000360 /* NSException-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		000000000720 /* NSFileManager-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000380 /* NSFileManager-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		000000000730 /* NSPredicate+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000003A0 /* NSPredicate+KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		000000000740 /* NSString+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000003C0 /* NSString+KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		000000000750 /* UIAccessibilityElement-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000003E0 /* UIAccessibilityElement-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		000000000760 /* UIApplication-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000400 /* UIApplication-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		000000000770 /* UIEvent+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000420 /* UIEvent+KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		000000000780 /* UIScreen+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000440 /* UIScreen+KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		000000000790 /* UIScrollView-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000460 /* UIScrollView-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0000000007A0 /* UITableView-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000480 /* UITableView-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0000000007B0 /* UITouch-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000004A0 /* UITouch-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0000000007C0 /* UIView-Debugging.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000004C0 /* UIView-Debugging.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0000000007D0 /* UIView-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000004E0 /* UIView-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0000000007E0 /* UIWindow-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000500 /* UIWindow-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0000000007F0 /* XCTestCase-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000520 /* XCTestCase-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		000000000800 /* IOHIDEvent+KIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000000D0 /* IOHIDEvent+KIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000000000810 /* KIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000000F0 /* KIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000000000820 /* KIFAccessibilityEnabler.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000100 /* KIFAccessibilityEnabler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000000000830 /* KIFSystemTestActor.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000120 /* KIFSystemTestActor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000000000840 /* KIFTestActor.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000140 /* KIFTestActor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000000000850 /* KIFTestActor_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000160 /* KIFTestActor_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000000000860 /* KIFTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000170 /* KIFTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000000000870 /* KIFTestStepValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000190 /* KIFTestStepValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000000000880 /* KIFTextInputTraitsOverrides.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000001B0 /* KIFTextInputTraitsOverrides.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000000000890 /* KIFTypist.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000001D0 /* KIFTypist.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0000000008A0 /* KIFUIObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000001F0 /* KIFUIObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0000000008B0 /* KIFUITestActor-ConditionalTests.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000210 /* KIFUITestActor-ConditionalTests.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0000000008C0 /* KIFUITestActor.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000230 /* KIFUITestActor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0000000008D0 /* KIFUITestActor_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000250 /* KIFUITestActor_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0000000008E0 /* KIFUIViewTestActor.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000260 /* KIFUIViewTestActor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0000000008F0 /* UIAutomationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000280 /* UIAutomationHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000000000900 /* CAAnimation+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000002A0 /* CAAnimation+KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000000000910 /* CALayer-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000002C0 /* CALayer-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000000000920 /* CGGeometry-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000002E0 /* CGGeometry-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000000000930 /* LoadableCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000300 /* LoadableCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		000000000940 /* NSBundle-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000310 /* NSBundle-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000000000950 /* NSError-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000330 /* NSError-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000000000960 /* NSException-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000350 /* NSException-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000000000970 /* NSFileManager-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000370 /* NSFileManager-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000000000980 /* NSPredicate+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000390 /* NSPredicate+KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000000000990 /* NSString+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000003B0 /* NSString+KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0000000009A0 /* UIAccessibilityElement-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000003D0 /* UIAccessibilityElement-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0000000009B0 /* UIApplication-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000003F0 /* UIApplication-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0000000009C0 /* UIEvent+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000410 /* UIEvent+KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0000000009D0 /* UIScreen+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000430 /* UIScreen+KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0000000009E0 /* UIScrollView-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000450 /* UIScrollView-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0000000009F0 /* UITableView-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000470 /* UITableView-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000000000A00 /* UITouch-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000490 /* UITouch-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000000000A10 /* UIView-Debugging.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000004B0 /* UIView-Debugging.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000000000A20 /* UIView-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000004D0 /* UIView-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000000000A30 /* UIWindow-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000004F0 /* UIWindow-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000000000A40 /* XCTestCase-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000510 /* XCTestCase-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000000000A90 /* KIF-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000A80 /* KIF-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000000000AD0 /* KIF-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000AC0 /* KIF-dummy.m */; };
-		000000000B70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0000000005D0 /* Foundation.framework */; };
-		000000000BE0 /* Pods-ImagePickerSheetController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000BD0 /* Pods-ImagePickerSheetController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000000000C30 /* Pods-ImagePickerSheetController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000C20 /* Pods-ImagePickerSheetController-dummy.m */; };
-		000000000CD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0000000005D0 /* Foundation.framework */; };
-		000000000D40 /* Pods-ImagePickerSheetControllerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000D30 /* Pods-ImagePickerSheetControllerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000000000DA0 /* Pods-ImagePickerSheetControllerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000D90 /* Pods-ImagePickerSheetControllerTests-dummy.m */; };
-		000000000DC0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000000000DB0 /* CoreGraphics.framework */; };
-		000000000DE0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000000000DD0 /* QuartzCore.framework */; };
-		000000000E00 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000000000DF0 /* IOKit.framework */; };
-		000000000E20 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000000000E10 /* XCTest.framework */; };
+		000000000A40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000000000A30 /* Foundation.framework */; };
+		000000000A50 /* IOHIDEvent+KIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000F0 /* IOHIDEvent+KIF.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000A60 /* KIFAccessibilityEnabler.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000120 /* KIFAccessibilityEnabler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000A70 /* KIFSystemTestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000140 /* KIFSystemTestActor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000A80 /* KIFTestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000160 /* KIFTestActor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000A90 /* KIFTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000190 /* KIFTestCase.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000AA0 /* KIFTestStepValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000001B0 /* KIFTestStepValidation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000AB0 /* KIFTextInputTraitsOverrides.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000001D0 /* KIFTextInputTraitsOverrides.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000AC0 /* KIFTypist.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000001F0 /* KIFTypist.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000AD0 /* KIFUIObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000210 /* KIFUIObject.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000AE0 /* KIFUITestActor-ConditionalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000230 /* KIFUITestActor-ConditionalTests.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000AF0 /* KIFUITestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000250 /* KIFUITestActor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000B00 /* KIFUIViewTestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000280 /* KIFUIViewTestActor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000B10 /* UIAutomationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000002A0 /* UIAutomationHelper.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000B20 /* CAAnimation+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000002C0 /* CAAnimation+KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000B30 /* CALayer-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000002E0 /* CALayer-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000B40 /* CGGeometry-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000300 /* CGGeometry-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000B50 /* NSBundle-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000330 /* NSBundle-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000B60 /* NSError-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000350 /* NSError-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000B70 /* NSException-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000370 /* NSException-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000B80 /* NSFileManager-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000390 /* NSFileManager-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000B90 /* NSPredicate+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000003B0 /* NSPredicate+KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000BA0 /* NSString+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000003D0 /* NSString+KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000BB0 /* UIAccessibilityElement-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000003F0 /* UIAccessibilityElement-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000BC0 /* UIApplication-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000410 /* UIApplication-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000BD0 /* UIEvent+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000430 /* UIEvent+KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000BE0 /* UIScreen+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000450 /* UIScreen+KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000BF0 /* UIScrollView-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000470 /* UIScrollView-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000C00 /* UITableView-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000490 /* UITableView-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000C10 /* UITouch-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000004B0 /* UITouch-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000C20 /* UIView-Debugging.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000004D0 /* UIView-Debugging.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000C30 /* UIView-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000004F0 /* UIView-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000C40 /* UIWindow-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000510 /* UIWindow-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000C50 /* XCTestCase-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000530 /* XCTestCase-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000C60 /* IOHIDEvent+KIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000000E0 /* IOHIDEvent+KIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000C70 /* KIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000100 /* KIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000C80 /* KIFAccessibilityEnabler.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000110 /* KIFAccessibilityEnabler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000C90 /* KIFSystemTestActor.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000130 /* KIFSystemTestActor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000CA0 /* KIFTestActor.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000150 /* KIFTestActor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000CB0 /* KIFTestActor_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000170 /* KIFTestActor_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000CC0 /* KIFTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000180 /* KIFTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000CD0 /* KIFTestStepValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000001A0 /* KIFTestStepValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000CE0 /* KIFTextInputTraitsOverrides.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000001C0 /* KIFTextInputTraitsOverrides.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000CF0 /* KIFTypist.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000001E0 /* KIFTypist.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000D00 /* KIFUIObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000200 /* KIFUIObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000D10 /* KIFUITestActor-ConditionalTests.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000220 /* KIFUITestActor-ConditionalTests.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000D20 /* KIFUITestActor.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000240 /* KIFUITestActor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000D30 /* KIFUITestActor_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000260 /* KIFUITestActor_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000D40 /* KIFUIViewTestActor.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000270 /* KIFUIViewTestActor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000D50 /* UIAutomationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000290 /* UIAutomationHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000D60 /* CAAnimation+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000002B0 /* CAAnimation+KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000D70 /* CALayer-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000002D0 /* CALayer-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000D80 /* CGGeometry-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000002F0 /* CGGeometry-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000D90 /* LoadableCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000310 /* LoadableCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		000000000DA0 /* NSBundle-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000320 /* NSBundle-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000DB0 /* NSError-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000340 /* NSError-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000DC0 /* NSException-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000360 /* NSException-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000DD0 /* NSFileManager-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000380 /* NSFileManager-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000DE0 /* NSPredicate+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000003A0 /* NSPredicate+KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000DF0 /* NSString+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000003C0 /* NSString+KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000E00 /* UIAccessibilityElement-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000003E0 /* UIAccessibilityElement-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000E10 /* UIApplication-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000400 /* UIApplication-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000E20 /* UIEvent+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000420 /* UIEvent+KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000E30 /* UIScreen+KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000440 /* UIScreen+KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000E40 /* UIScrollView-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000460 /* UIScrollView-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000E50 /* UITableView-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000480 /* UITableView-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000E60 /* UITouch-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000004A0 /* UITouch-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000E70 /* UIView-Debugging.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000004C0 /* UIView-Debugging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000E80 /* UIView-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000004E0 /* UIView-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000E90 /* UIWindow-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000500 /* UIWindow-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000EA0 /* XCTestCase-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000520 /* XCTestCase-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000EF0 /* KIF-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000EE0 /* KIF-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000000F30 /* KIF-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000F20 /* KIF-dummy.m */; };
+		000000000FD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000000000A30 /* Foundation.framework */; };
+		000000000FE0 /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000540 /* AdapterProtocols.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000000FF0 /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000550 /* AssertionDispatcher.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001000 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000560 /* AssertionRecorder.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001010 /* NimbleEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000570 /* NimbleEnvironment.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001020 /* NimbleXCTestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000580 /* NimbleXCTestHandler.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001030 /* NMBExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000590 /* NMBExpectation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001040 /* NMBObjCMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000005A0 /* NMBObjCMatcher.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001050 /* DSL+Wait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000005B0 /* DSL+Wait.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001060 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000005C0 /* DSL.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001070 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000005D0 /* Expectation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001080 /* ExpectationMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000005E0 /* ExpectationMessage.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001090 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000005F0 /* Expression.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000010A0 /* FailureMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000600 /* FailureMessage.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000010B0 /* AllPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000610 /* AllPass.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000010C0 /* AsyncMatcherWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000620 /* AsyncMatcherWrapper.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000010D0 /* BeAKindOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000630 /* BeAKindOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000010E0 /* BeAnInstanceOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000640 /* BeAnInstanceOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000010F0 /* BeCloseTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000650 /* BeCloseTo.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001100 /* BeEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000660 /* BeEmpty.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001110 /* BeginWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000670 /* BeginWith.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001120 /* BeGreaterThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000680 /* BeGreaterThan.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001130 /* BeGreaterThanOrEqualTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000690 /* BeGreaterThanOrEqualTo.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001140 /* BeIdenticalTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000006A0 /* BeIdenticalTo.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001150 /* BeLessThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000006B0 /* BeLessThan.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001160 /* BeLessThanOrEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000006C0 /* BeLessThanOrEqual.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001170 /* BeLogical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000006D0 /* BeLogical.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001180 /* BeNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000006E0 /* BeNil.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001190 /* BeVoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000006F0 /* BeVoid.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000011A0 /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000700 /* Contain.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000011B0 /* ContainElementSatisfying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000710 /* ContainElementSatisfying.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000011C0 /* EndWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000720 /* EndWith.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000011D0 /* Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000730 /* Equal.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000011E0 /* HaveCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000740 /* HaveCount.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000011F0 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000750 /* Match.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001200 /* MatcherFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000760 /* MatcherFunc.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001210 /* MatcherProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000770 /* MatcherProtocols.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001220 /* MatchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000780 /* MatchError.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001230 /* PostNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000790 /* PostNotification.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001240 /* Predicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000007A0 /* Predicate.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001250 /* RaisesException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000007B0 /* RaisesException.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001260 /* SatisfyAnyOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000007C0 /* SatisfyAnyOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001270 /* ThrowAssertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000007D0 /* ThrowAssertion.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001280 /* ThrowError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000007E0 /* ThrowError.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001290 /* ToSucceed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000007F0 /* ToSucceed.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000012A0 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000810 /* Async.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000012B0 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000820 /* Errors.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000012C0 /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000830 /* Functional.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000012D0 /* SourceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000840 /* SourceLocation.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000012E0 /* Stringers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000850 /* Stringers.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000012F0 /* DSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000880 /* DSL.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001300 /* NMBExceptionCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000008A0 /* NMBExceptionCapture.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001310 /* NMBStringify.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000008C0 /* NMBStringify.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001320 /* XCTestObservationCenter+Register.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000008D0 /* XCTestObservationCenter+Register.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001330 /* CwlCatchException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000008E0 /* CwlCatchException.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001340 /* CwlCatchException.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000008F0 /* CwlCatchException.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001350 /* CwlMachBadInstructionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000000910 /* CwlMachBadInstructionHandler.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001360 /* mach_excServer.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000930 /* mach_excServer.c */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001370 /* CwlBadInstructionException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000950 /* CwlBadInstructionException.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001380 /* CwlCatchBadInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000960 /* CwlCatchBadInstruction.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		000000001390 /* CwlDarwinDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000970 /* CwlDarwinDefinitions.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0000000013A0 /* Nimble.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000800 /* Nimble.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0000000013B0 /* CurrentTestCaseTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000860 /* CurrentTestCaseTracker.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0000000013C0 /* DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000870 /* DSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0000000013D0 /* NMBExceptionCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000890 /* NMBExceptionCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0000000013E0 /* NMBStringify.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000008B0 /* NMBStringify.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0000000013F0 /* CwlCatchException.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000900 /* CwlCatchException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000001400 /* CwlMachBadInstructionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000920 /* CwlMachBadInstructionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000001410 /* mach_excServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000940 /* mach_excServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000001420 /* CwlPreconditionTesting.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000980 /* CwlPreconditionTesting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000001470 /* Nimble-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000001460 /* Nimble-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0000000014B0 /* Nimble-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0000000014A0 /* Nimble-dummy.m */; };
+		000000001550 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000000000A30 /* Foundation.framework */; };
+		0000000015C0 /* Pods-ImagePickerSheetController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000015B0 /* Pods-ImagePickerSheetController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000001610 /* Pods-ImagePickerSheetController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000001600 /* Pods-ImagePickerSheetController-dummy.m */; };
+		0000000016B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000000000A30 /* Foundation.framework */; };
+		000000001720 /* Pods-ImagePickerSheetControllerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000001710 /* Pods-ImagePickerSheetControllerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000000001780 /* Pods-ImagePickerSheetControllerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 000000001770 /* Pods-ImagePickerSheetControllerTests-dummy.m */; };
+		0000000017A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000000001790 /* CoreGraphics.framework */; };
+		0000000017C0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0000000017B0 /* QuartzCore.framework */; };
+		0000000017E0 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0000000017D0 /* IOKit.framework */; };
+		000000001800 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0000000017F0 /* XCTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		000000000E30 /* PBXContainerItemProxy */ = {
+		000000001810 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 000000000000 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 000000000530;
+			remoteGlobalIDString = 000000000990;
 			remoteInfo = KIF;
 		};
-		000000000E50 /* PBXContainerItemProxy */ = {
+		000000001830 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 000000000000 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 000000000530;
+			remoteGlobalIDString = 000000000990;
 			remoteInfo = KIF;
+		};
+		000000001850 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000000000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000000000F40;
+			remoteInfo = Nimble;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0000000000B0 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0000000000D0 /* IOHIDEvent+KIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IOHIDEvent+KIF.h"; path = "Classes/IOHIDEvent+KIF.h"; sourceTree = "<group>"; };
-		0000000000E0 /* IOHIDEvent+KIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IOHIDEvent+KIF.m"; path = "Classes/IOHIDEvent+KIF.m"; sourceTree = "<group>"; };
-		0000000000F0 /* KIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIF.h; path = Classes/KIF.h; sourceTree = "<group>"; };
-		000000000100 /* KIFAccessibilityEnabler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFAccessibilityEnabler.h; path = Classes/KIFAccessibilityEnabler.h; sourceTree = "<group>"; };
-		000000000110 /* KIFAccessibilityEnabler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFAccessibilityEnabler.m; path = Classes/KIFAccessibilityEnabler.m; sourceTree = "<group>"; };
-		000000000120 /* KIFSystemTestActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFSystemTestActor.h; path = Classes/KIFSystemTestActor.h; sourceTree = "<group>"; };
-		000000000130 /* KIFSystemTestActor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFSystemTestActor.m; path = Classes/KIFSystemTestActor.m; sourceTree = "<group>"; };
-		000000000140 /* KIFTestActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTestActor.h; path = Classes/KIFTestActor.h; sourceTree = "<group>"; };
-		000000000150 /* KIFTestActor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTestActor.m; path = Classes/KIFTestActor.m; sourceTree = "<group>"; };
-		000000000160 /* KIFTestActor_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTestActor_Private.h; path = Classes/KIFTestActor_Private.h; sourceTree = "<group>"; };
-		000000000170 /* KIFTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTestCase.h; path = Classes/KIFTestCase.h; sourceTree = "<group>"; };
-		000000000180 /* KIFTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTestCase.m; path = Classes/KIFTestCase.m; sourceTree = "<group>"; };
-		000000000190 /* KIFTestStepValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTestStepValidation.h; path = Classes/KIFTestStepValidation.h; sourceTree = "<group>"; };
-		0000000001A0 /* KIFTestStepValidation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTestStepValidation.m; path = Classes/KIFTestStepValidation.m; sourceTree = "<group>"; };
-		0000000001B0 /* KIFTextInputTraitsOverrides.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTextInputTraitsOverrides.h; path = Classes/KIFTextInputTraitsOverrides.h; sourceTree = "<group>"; };
-		0000000001C0 /* KIFTextInputTraitsOverrides.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTextInputTraitsOverrides.m; path = Classes/KIFTextInputTraitsOverrides.m; sourceTree = "<group>"; };
-		0000000001D0 /* KIFTypist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTypist.h; path = Classes/KIFTypist.h; sourceTree = "<group>"; };
-		0000000001E0 /* KIFTypist.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTypist.m; path = Classes/KIFTypist.m; sourceTree = "<group>"; };
-		0000000001F0 /* KIFUIObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFUIObject.h; path = Classes/KIFUIObject.h; sourceTree = "<group>"; };
-		000000000200 /* KIFUIObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFUIObject.m; path = Classes/KIFUIObject.m; sourceTree = "<group>"; };
-		000000000210 /* KIFUITestActor-ConditionalTests.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "KIFUITestActor-ConditionalTests.h"; path = "Classes/KIFUITestActor-ConditionalTests.h"; sourceTree = "<group>"; };
-		000000000220 /* KIFUITestActor-ConditionalTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "KIFUITestActor-ConditionalTests.m"; path = "Classes/KIFUITestActor-ConditionalTests.m"; sourceTree = "<group>"; };
-		000000000230 /* KIFUITestActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFUITestActor.h; path = Classes/KIFUITestActor.h; sourceTree = "<group>"; };
-		000000000240 /* KIFUITestActor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFUITestActor.m; path = Classes/KIFUITestActor.m; sourceTree = "<group>"; };
-		000000000250 /* KIFUITestActor_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFUITestActor_Private.h; path = Classes/KIFUITestActor_Private.h; sourceTree = "<group>"; };
-		000000000260 /* KIFUIViewTestActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFUIViewTestActor.h; path = Classes/KIFUIViewTestActor.h; sourceTree = "<group>"; };
-		000000000270 /* KIFUIViewTestActor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFUIViewTestActor.m; path = Classes/KIFUIViewTestActor.m; sourceTree = "<group>"; };
-		000000000280 /* UIAutomationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIAutomationHelper.h; path = Classes/UIAutomationHelper.h; sourceTree = "<group>"; };
-		000000000290 /* UIAutomationHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIAutomationHelper.m; path = Classes/UIAutomationHelper.m; sourceTree = "<group>"; };
-		0000000002A0 /* CAAnimation+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+KIFAdditions.h"; path = "Additions/CAAnimation+KIFAdditions.h"; sourceTree = "<group>"; };
-		0000000002B0 /* CAAnimation+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+KIFAdditions.m"; path = "Additions/CAAnimation+KIFAdditions.m"; sourceTree = "<group>"; };
-		0000000002C0 /* CALayer-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer-KIFAdditions.h"; path = "Additions/CALayer-KIFAdditions.h"; sourceTree = "<group>"; };
-		0000000002D0 /* CALayer-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer-KIFAdditions.m"; path = "Additions/CALayer-KIFAdditions.m"; sourceTree = "<group>"; };
-		0000000002E0 /* CGGeometry-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CGGeometry-KIFAdditions.h"; path = "Additions/CGGeometry-KIFAdditions.h"; sourceTree = "<group>"; };
-		0000000002F0 /* CGGeometry-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CGGeometry-KIFAdditions.m"; path = "Additions/CGGeometry-KIFAdditions.m"; sourceTree = "<group>"; };
-		000000000300 /* LoadableCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoadableCategory.h; path = Additions/LoadableCategory.h; sourceTree = "<group>"; };
-		000000000310 /* NSBundle-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle-KIFAdditions.h"; path = "Additions/NSBundle-KIFAdditions.h"; sourceTree = "<group>"; };
-		000000000320 /* NSBundle-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle-KIFAdditions.m"; path = "Additions/NSBundle-KIFAdditions.m"; sourceTree = "<group>"; };
-		000000000330 /* NSError-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError-KIFAdditions.h"; path = "Additions/NSError-KIFAdditions.h"; sourceTree = "<group>"; };
-		000000000340 /* NSError-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError-KIFAdditions.m"; path = "Additions/NSError-KIFAdditions.m"; sourceTree = "<group>"; };
-		000000000350 /* NSException-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSException-KIFAdditions.h"; path = "Additions/NSException-KIFAdditions.h"; sourceTree = "<group>"; };
-		000000000360 /* NSException-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSException-KIFAdditions.m"; path = "Additions/NSException-KIFAdditions.m"; sourceTree = "<group>"; };
-		000000000370 /* NSFileManager-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager-KIFAdditions.h"; path = "Additions/NSFileManager-KIFAdditions.h"; sourceTree = "<group>"; };
-		000000000380 /* NSFileManager-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager-KIFAdditions.m"; path = "Additions/NSFileManager-KIFAdditions.m"; sourceTree = "<group>"; };
-		000000000390 /* NSPredicate+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPredicate+KIFAdditions.h"; path = "Additions/NSPredicate+KIFAdditions.h"; sourceTree = "<group>"; };
-		0000000003A0 /* NSPredicate+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPredicate+KIFAdditions.m"; path = "Additions/NSPredicate+KIFAdditions.m"; sourceTree = "<group>"; };
-		0000000003B0 /* NSString+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+KIFAdditions.h"; path = "Additions/NSString+KIFAdditions.h"; sourceTree = "<group>"; };
-		0000000003C0 /* NSString+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+KIFAdditions.m"; path = "Additions/NSString+KIFAdditions.m"; sourceTree = "<group>"; };
-		0000000003D0 /* UIAccessibilityElement-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAccessibilityElement-KIFAdditions.h"; path = "Additions/UIAccessibilityElement-KIFAdditions.h"; sourceTree = "<group>"; };
-		0000000003E0 /* UIAccessibilityElement-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAccessibilityElement-KIFAdditions.m"; path = "Additions/UIAccessibilityElement-KIFAdditions.m"; sourceTree = "<group>"; };
-		0000000003F0 /* UIApplication-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication-KIFAdditions.h"; path = "Additions/UIApplication-KIFAdditions.h"; sourceTree = "<group>"; };
-		000000000400 /* UIApplication-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication-KIFAdditions.m"; path = "Additions/UIApplication-KIFAdditions.m"; sourceTree = "<group>"; };
-		000000000410 /* UIEvent+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIEvent+KIFAdditions.h"; path = "Additions/UIEvent+KIFAdditions.h"; sourceTree = "<group>"; };
-		000000000420 /* UIEvent+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIEvent+KIFAdditions.m"; path = "Additions/UIEvent+KIFAdditions.m"; sourceTree = "<group>"; };
-		000000000430 /* UIScreen+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreen+KIFAdditions.h"; path = "Additions/UIScreen+KIFAdditions.h"; sourceTree = "<group>"; };
-		000000000440 /* UIScreen+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+KIFAdditions.m"; path = "Additions/UIScreen+KIFAdditions.m"; sourceTree = "<group>"; };
-		000000000450 /* UIScrollView-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView-KIFAdditions.h"; path = "Additions/UIScrollView-KIFAdditions.h"; sourceTree = "<group>"; };
-		000000000460 /* UIScrollView-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView-KIFAdditions.m"; path = "Additions/UIScrollView-KIFAdditions.m"; sourceTree = "<group>"; };
-		000000000470 /* UITableView-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView-KIFAdditions.h"; path = "Additions/UITableView-KIFAdditions.h"; sourceTree = "<group>"; };
-		000000000480 /* UITableView-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView-KIFAdditions.m"; path = "Additions/UITableView-KIFAdditions.m"; sourceTree = "<group>"; };
-		000000000490 /* UITouch-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITouch-KIFAdditions.h"; path = "Additions/UITouch-KIFAdditions.h"; sourceTree = "<group>"; };
-		0000000004A0 /* UITouch-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITouch-KIFAdditions.m"; path = "Additions/UITouch-KIFAdditions.m"; sourceTree = "<group>"; };
-		0000000004B0 /* UIView-Debugging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView-Debugging.h"; path = "Additions/UIView-Debugging.h"; sourceTree = "<group>"; };
-		0000000004C0 /* UIView-Debugging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView-Debugging.m"; path = "Additions/UIView-Debugging.m"; sourceTree = "<group>"; };
-		0000000004D0 /* UIView-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView-KIFAdditions.h"; path = "Additions/UIView-KIFAdditions.h"; sourceTree = "<group>"; };
-		0000000004E0 /* UIView-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView-KIFAdditions.m"; path = "Additions/UIView-KIFAdditions.m"; sourceTree = "<group>"; };
-		0000000004F0 /* UIWindow-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow-KIFAdditions.h"; path = "Additions/UIWindow-KIFAdditions.h"; sourceTree = "<group>"; };
-		000000000500 /* UIWindow-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow-KIFAdditions.m"; path = "Additions/UIWindow-KIFAdditions.m"; sourceTree = "<group>"; };
-		000000000510 /* XCTestCase-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestCase-KIFAdditions.h"; path = "Additions/XCTestCase-KIFAdditions.h"; sourceTree = "<group>"; };
-		000000000520 /* XCTestCase-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase-KIFAdditions.m"; path = "Additions/XCTestCase-KIFAdditions.m"; sourceTree = "<group>"; };
-		000000000570 /* KIF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KIF.framework; path = KIF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0000000005D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		000000000A60 /* KIF.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KIF.xcconfig; sourceTree = "<group>"; };
-		000000000A70 /* KIF.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KIF.modulemap; sourceTree = "<group>"; };
-		000000000A80 /* KIF-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KIF-umbrella.h"; sourceTree = "<group>"; };
-		000000000AA0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		000000000AB0 /* KIF-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KIF-prefix.pch"; sourceTree = "<group>"; };
-		000000000AC0 /* KIF-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KIF-dummy.m"; sourceTree = "<group>"; };
-		000000000B20 /* Pods_ImagePickerSheetController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImagePickerSheetController.framework; path = "Pods-ImagePickerSheetController.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		000000000B90 /* Pods-ImagePickerSheetController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePickerSheetController.release.xcconfig"; sourceTree = "<group>"; };
-		000000000BA0 /* Pods-ImagePickerSheetController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePickerSheetController.debug.xcconfig"; sourceTree = "<group>"; };
-		000000000BB0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		000000000BC0 /* Pods-ImagePickerSheetController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImagePickerSheetController.modulemap"; sourceTree = "<group>"; };
-		000000000BD0 /* Pods-ImagePickerSheetController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImagePickerSheetController-umbrella.h"; sourceTree = "<group>"; };
-		000000000BF0 /* Pods-ImagePickerSheetController-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImagePickerSheetController-resources.sh"; sourceTree = "<group>"; };
-		000000000C00 /* Pods-ImagePickerSheetController-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImagePickerSheetController-acknowledgements.plist"; sourceTree = "<group>"; };
-		000000000C10 /* Pods-ImagePickerSheetController-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImagePickerSheetController-acknowledgements.markdown"; sourceTree = "<group>"; };
-		000000000C20 /* Pods-ImagePickerSheetController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImagePickerSheetController-dummy.m"; sourceTree = "<group>"; };
-		000000000C80 /* Pods_ImagePickerSheetControllerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImagePickerSheetControllerTests.framework; path = "Pods-ImagePickerSheetControllerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		000000000CF0 /* Pods-ImagePickerSheetControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePickerSheetControllerTests.release.xcconfig"; sourceTree = "<group>"; };
-		000000000D00 /* Pods-ImagePickerSheetControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePickerSheetControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		000000000D10 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		000000000D20 /* Pods-ImagePickerSheetControllerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImagePickerSheetControllerTests.modulemap"; sourceTree = "<group>"; };
-		000000000D30 /* Pods-ImagePickerSheetControllerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImagePickerSheetControllerTests-umbrella.h"; sourceTree = "<group>"; };
-		000000000D50 /* Pods-ImagePickerSheetControllerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImagePickerSheetControllerTests-frameworks.sh"; sourceTree = "<group>"; };
-		000000000D60 /* Pods-ImagePickerSheetControllerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImagePickerSheetControllerTests-resources.sh"; sourceTree = "<group>"; };
-		000000000D70 /* Pods-ImagePickerSheetControllerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImagePickerSheetControllerTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		000000000D80 /* Pods-ImagePickerSheetControllerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImagePickerSheetControllerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		000000000D90 /* Pods-ImagePickerSheetControllerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImagePickerSheetControllerTests-dummy.m"; sourceTree = "<group>"; };
-		000000000DB0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		000000000DD0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		000000000DF0 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
-		000000000E10 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0000000000C0 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0000000000E0 /* IOHIDEvent+KIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IOHIDEvent+KIF.h"; path = "Classes/IOHIDEvent+KIF.h"; sourceTree = "<group>"; };
+		0000000000F0 /* IOHIDEvent+KIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IOHIDEvent+KIF.m"; path = "Classes/IOHIDEvent+KIF.m"; sourceTree = "<group>"; };
+		000000000100 /* KIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIF.h; path = Classes/KIF.h; sourceTree = "<group>"; };
+		000000000110 /* KIFAccessibilityEnabler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFAccessibilityEnabler.h; path = Classes/KIFAccessibilityEnabler.h; sourceTree = "<group>"; };
+		000000000120 /* KIFAccessibilityEnabler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFAccessibilityEnabler.m; path = Classes/KIFAccessibilityEnabler.m; sourceTree = "<group>"; };
+		000000000130 /* KIFSystemTestActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFSystemTestActor.h; path = Classes/KIFSystemTestActor.h; sourceTree = "<group>"; };
+		000000000140 /* KIFSystemTestActor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFSystemTestActor.m; path = Classes/KIFSystemTestActor.m; sourceTree = "<group>"; };
+		000000000150 /* KIFTestActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTestActor.h; path = Classes/KIFTestActor.h; sourceTree = "<group>"; };
+		000000000160 /* KIFTestActor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTestActor.m; path = Classes/KIFTestActor.m; sourceTree = "<group>"; };
+		000000000170 /* KIFTestActor_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTestActor_Private.h; path = Classes/KIFTestActor_Private.h; sourceTree = "<group>"; };
+		000000000180 /* KIFTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTestCase.h; path = Classes/KIFTestCase.h; sourceTree = "<group>"; };
+		000000000190 /* KIFTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTestCase.m; path = Classes/KIFTestCase.m; sourceTree = "<group>"; };
+		0000000001A0 /* KIFTestStepValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTestStepValidation.h; path = Classes/KIFTestStepValidation.h; sourceTree = "<group>"; };
+		0000000001B0 /* KIFTestStepValidation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTestStepValidation.m; path = Classes/KIFTestStepValidation.m; sourceTree = "<group>"; };
+		0000000001C0 /* KIFTextInputTraitsOverrides.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTextInputTraitsOverrides.h; path = Classes/KIFTextInputTraitsOverrides.h; sourceTree = "<group>"; };
+		0000000001D0 /* KIFTextInputTraitsOverrides.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTextInputTraitsOverrides.m; path = Classes/KIFTextInputTraitsOverrides.m; sourceTree = "<group>"; };
+		0000000001E0 /* KIFTypist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFTypist.h; path = Classes/KIFTypist.h; sourceTree = "<group>"; };
+		0000000001F0 /* KIFTypist.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTypist.m; path = Classes/KIFTypist.m; sourceTree = "<group>"; };
+		000000000200 /* KIFUIObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFUIObject.h; path = Classes/KIFUIObject.h; sourceTree = "<group>"; };
+		000000000210 /* KIFUIObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFUIObject.m; path = Classes/KIFUIObject.m; sourceTree = "<group>"; };
+		000000000220 /* KIFUITestActor-ConditionalTests.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "KIFUITestActor-ConditionalTests.h"; path = "Classes/KIFUITestActor-ConditionalTests.h"; sourceTree = "<group>"; };
+		000000000230 /* KIFUITestActor-ConditionalTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "KIFUITestActor-ConditionalTests.m"; path = "Classes/KIFUITestActor-ConditionalTests.m"; sourceTree = "<group>"; };
+		000000000240 /* KIFUITestActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFUITestActor.h; path = Classes/KIFUITestActor.h; sourceTree = "<group>"; };
+		000000000250 /* KIFUITestActor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFUITestActor.m; path = Classes/KIFUITestActor.m; sourceTree = "<group>"; };
+		000000000260 /* KIFUITestActor_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFUITestActor_Private.h; path = Classes/KIFUITestActor_Private.h; sourceTree = "<group>"; };
+		000000000270 /* KIFUIViewTestActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFUIViewTestActor.h; path = Classes/KIFUIViewTestActor.h; sourceTree = "<group>"; };
+		000000000280 /* KIFUIViewTestActor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFUIViewTestActor.m; path = Classes/KIFUIViewTestActor.m; sourceTree = "<group>"; };
+		000000000290 /* UIAutomationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIAutomationHelper.h; path = Classes/UIAutomationHelper.h; sourceTree = "<group>"; };
+		0000000002A0 /* UIAutomationHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIAutomationHelper.m; path = Classes/UIAutomationHelper.m; sourceTree = "<group>"; };
+		0000000002B0 /* CAAnimation+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+KIFAdditions.h"; path = "Additions/CAAnimation+KIFAdditions.h"; sourceTree = "<group>"; };
+		0000000002C0 /* CAAnimation+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+KIFAdditions.m"; path = "Additions/CAAnimation+KIFAdditions.m"; sourceTree = "<group>"; };
+		0000000002D0 /* CALayer-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer-KIFAdditions.h"; path = "Additions/CALayer-KIFAdditions.h"; sourceTree = "<group>"; };
+		0000000002E0 /* CALayer-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer-KIFAdditions.m"; path = "Additions/CALayer-KIFAdditions.m"; sourceTree = "<group>"; };
+		0000000002F0 /* CGGeometry-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CGGeometry-KIFAdditions.h"; path = "Additions/CGGeometry-KIFAdditions.h"; sourceTree = "<group>"; };
+		000000000300 /* CGGeometry-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CGGeometry-KIFAdditions.m"; path = "Additions/CGGeometry-KIFAdditions.m"; sourceTree = "<group>"; };
+		000000000310 /* LoadableCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoadableCategory.h; path = Additions/LoadableCategory.h; sourceTree = "<group>"; };
+		000000000320 /* NSBundle-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle-KIFAdditions.h"; path = "Additions/NSBundle-KIFAdditions.h"; sourceTree = "<group>"; };
+		000000000330 /* NSBundle-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle-KIFAdditions.m"; path = "Additions/NSBundle-KIFAdditions.m"; sourceTree = "<group>"; };
+		000000000340 /* NSError-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError-KIFAdditions.h"; path = "Additions/NSError-KIFAdditions.h"; sourceTree = "<group>"; };
+		000000000350 /* NSError-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError-KIFAdditions.m"; path = "Additions/NSError-KIFAdditions.m"; sourceTree = "<group>"; };
+		000000000360 /* NSException-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSException-KIFAdditions.h"; path = "Additions/NSException-KIFAdditions.h"; sourceTree = "<group>"; };
+		000000000370 /* NSException-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSException-KIFAdditions.m"; path = "Additions/NSException-KIFAdditions.m"; sourceTree = "<group>"; };
+		000000000380 /* NSFileManager-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager-KIFAdditions.h"; path = "Additions/NSFileManager-KIFAdditions.h"; sourceTree = "<group>"; };
+		000000000390 /* NSFileManager-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager-KIFAdditions.m"; path = "Additions/NSFileManager-KIFAdditions.m"; sourceTree = "<group>"; };
+		0000000003A0 /* NSPredicate+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSPredicate+KIFAdditions.h"; path = "Additions/NSPredicate+KIFAdditions.h"; sourceTree = "<group>"; };
+		0000000003B0 /* NSPredicate+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSPredicate+KIFAdditions.m"; path = "Additions/NSPredicate+KIFAdditions.m"; sourceTree = "<group>"; };
+		0000000003C0 /* NSString+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+KIFAdditions.h"; path = "Additions/NSString+KIFAdditions.h"; sourceTree = "<group>"; };
+		0000000003D0 /* NSString+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+KIFAdditions.m"; path = "Additions/NSString+KIFAdditions.m"; sourceTree = "<group>"; };
+		0000000003E0 /* UIAccessibilityElement-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAccessibilityElement-KIFAdditions.h"; path = "Additions/UIAccessibilityElement-KIFAdditions.h"; sourceTree = "<group>"; };
+		0000000003F0 /* UIAccessibilityElement-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAccessibilityElement-KIFAdditions.m"; path = "Additions/UIAccessibilityElement-KIFAdditions.m"; sourceTree = "<group>"; };
+		000000000400 /* UIApplication-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication-KIFAdditions.h"; path = "Additions/UIApplication-KIFAdditions.h"; sourceTree = "<group>"; };
+		000000000410 /* UIApplication-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication-KIFAdditions.m"; path = "Additions/UIApplication-KIFAdditions.m"; sourceTree = "<group>"; };
+		000000000420 /* UIEvent+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIEvent+KIFAdditions.h"; path = "Additions/UIEvent+KIFAdditions.h"; sourceTree = "<group>"; };
+		000000000430 /* UIEvent+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIEvent+KIFAdditions.m"; path = "Additions/UIEvent+KIFAdditions.m"; sourceTree = "<group>"; };
+		000000000440 /* UIScreen+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreen+KIFAdditions.h"; path = "Additions/UIScreen+KIFAdditions.h"; sourceTree = "<group>"; };
+		000000000450 /* UIScreen+KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+KIFAdditions.m"; path = "Additions/UIScreen+KIFAdditions.m"; sourceTree = "<group>"; };
+		000000000460 /* UIScrollView-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView-KIFAdditions.h"; path = "Additions/UIScrollView-KIFAdditions.h"; sourceTree = "<group>"; };
+		000000000470 /* UIScrollView-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView-KIFAdditions.m"; path = "Additions/UIScrollView-KIFAdditions.m"; sourceTree = "<group>"; };
+		000000000480 /* UITableView-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView-KIFAdditions.h"; path = "Additions/UITableView-KIFAdditions.h"; sourceTree = "<group>"; };
+		000000000490 /* UITableView-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView-KIFAdditions.m"; path = "Additions/UITableView-KIFAdditions.m"; sourceTree = "<group>"; };
+		0000000004A0 /* UITouch-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITouch-KIFAdditions.h"; path = "Additions/UITouch-KIFAdditions.h"; sourceTree = "<group>"; };
+		0000000004B0 /* UITouch-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITouch-KIFAdditions.m"; path = "Additions/UITouch-KIFAdditions.m"; sourceTree = "<group>"; };
+		0000000004C0 /* UIView-Debugging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView-Debugging.h"; path = "Additions/UIView-Debugging.h"; sourceTree = "<group>"; };
+		0000000004D0 /* UIView-Debugging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView-Debugging.m"; path = "Additions/UIView-Debugging.m"; sourceTree = "<group>"; };
+		0000000004E0 /* UIView-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView-KIFAdditions.h"; path = "Additions/UIView-KIFAdditions.h"; sourceTree = "<group>"; };
+		0000000004F0 /* UIView-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView-KIFAdditions.m"; path = "Additions/UIView-KIFAdditions.m"; sourceTree = "<group>"; };
+		000000000500 /* UIWindow-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow-KIFAdditions.h"; path = "Additions/UIWindow-KIFAdditions.h"; sourceTree = "<group>"; };
+		000000000510 /* UIWindow-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow-KIFAdditions.m"; path = "Additions/UIWindow-KIFAdditions.m"; sourceTree = "<group>"; };
+		000000000520 /* XCTestCase-KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestCase-KIFAdditions.h"; path = "Additions/XCTestCase-KIFAdditions.h"; sourceTree = "<group>"; };
+		000000000530 /* XCTestCase-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase-KIFAdditions.m"; path = "Additions/XCTestCase-KIFAdditions.m"; sourceTree = "<group>"; };
+		000000000540 /* AdapterProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdapterProtocols.swift; path = Sources/Nimble/Adapters/AdapterProtocols.swift; sourceTree = "<group>"; };
+		000000000550 /* AssertionDispatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionDispatcher.swift; path = Sources/Nimble/Adapters/AssertionDispatcher.swift; sourceTree = "<group>"; };
+		000000000560 /* AssertionRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionRecorder.swift; path = Sources/Nimble/Adapters/AssertionRecorder.swift; sourceTree = "<group>"; };
+		000000000570 /* NimbleEnvironment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleEnvironment.swift; path = Sources/Nimble/Adapters/NimbleEnvironment.swift; sourceTree = "<group>"; };
+		000000000580 /* NimbleXCTestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleXCTestHandler.swift; path = Sources/Nimble/Adapters/NimbleXCTestHandler.swift; sourceTree = "<group>"; };
+		000000000590 /* NMBExpectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMBExpectation.swift; path = Sources/Nimble/Adapters/NMBExpectation.swift; sourceTree = "<group>"; };
+		0000000005A0 /* NMBObjCMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMBObjCMatcher.swift; path = Sources/Nimble/Adapters/NMBObjCMatcher.swift; sourceTree = "<group>"; };
+		0000000005B0 /* DSL+Wait.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DSL+Wait.swift"; path = "Sources/Nimble/DSL+Wait.swift"; sourceTree = "<group>"; };
+		0000000005C0 /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Nimble/DSL.swift; sourceTree = "<group>"; };
+		0000000005D0 /* Expectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expectation.swift; path = Sources/Nimble/Expectation.swift; sourceTree = "<group>"; };
+		0000000005E0 /* ExpectationMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpectationMessage.swift; path = Sources/Nimble/ExpectationMessage.swift; sourceTree = "<group>"; };
+		0000000005F0 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/Nimble/Expression.swift; sourceTree = "<group>"; };
+		000000000600 /* FailureMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FailureMessage.swift; path = Sources/Nimble/FailureMessage.swift; sourceTree = "<group>"; };
+		000000000610 /* AllPass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AllPass.swift; path = Sources/Nimble/Matchers/AllPass.swift; sourceTree = "<group>"; };
+		000000000620 /* AsyncMatcherWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncMatcherWrapper.swift; path = Sources/Nimble/Matchers/AsyncMatcherWrapper.swift; sourceTree = "<group>"; };
+		000000000630 /* BeAKindOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAKindOf.swift; path = Sources/Nimble/Matchers/BeAKindOf.swift; sourceTree = "<group>"; };
+		000000000640 /* BeAnInstanceOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAnInstanceOf.swift; path = Sources/Nimble/Matchers/BeAnInstanceOf.swift; sourceTree = "<group>"; };
+		000000000650 /* BeCloseTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeCloseTo.swift; path = Sources/Nimble/Matchers/BeCloseTo.swift; sourceTree = "<group>"; };
+		000000000660 /* BeEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeEmpty.swift; path = Sources/Nimble/Matchers/BeEmpty.swift; sourceTree = "<group>"; };
+		000000000670 /* BeginWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeginWith.swift; path = Sources/Nimble/Matchers/BeginWith.swift; sourceTree = "<group>"; };
+		000000000680 /* BeGreaterThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThan.swift; path = Sources/Nimble/Matchers/BeGreaterThan.swift; sourceTree = "<group>"; };
+		000000000690 /* BeGreaterThanOrEqualTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThanOrEqualTo.swift; path = Sources/Nimble/Matchers/BeGreaterThanOrEqualTo.swift; sourceTree = "<group>"; };
+		0000000006A0 /* BeIdenticalTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeIdenticalTo.swift; path = Sources/Nimble/Matchers/BeIdenticalTo.swift; sourceTree = "<group>"; };
+		0000000006B0 /* BeLessThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThan.swift; path = Sources/Nimble/Matchers/BeLessThan.swift; sourceTree = "<group>"; };
+		0000000006C0 /* BeLessThanOrEqual.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThanOrEqual.swift; path = Sources/Nimble/Matchers/BeLessThanOrEqual.swift; sourceTree = "<group>"; };
+		0000000006D0 /* BeLogical.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLogical.swift; path = Sources/Nimble/Matchers/BeLogical.swift; sourceTree = "<group>"; };
+		0000000006E0 /* BeNil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeNil.swift; path = Sources/Nimble/Matchers/BeNil.swift; sourceTree = "<group>"; };
+		0000000006F0 /* BeVoid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeVoid.swift; path = Sources/Nimble/Matchers/BeVoid.swift; sourceTree = "<group>"; };
+		000000000700 /* Contain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Contain.swift; path = Sources/Nimble/Matchers/Contain.swift; sourceTree = "<group>"; };
+		000000000710 /* ContainElementSatisfying.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContainElementSatisfying.swift; path = Sources/Nimble/Matchers/ContainElementSatisfying.swift; sourceTree = "<group>"; };
+		000000000720 /* EndWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndWith.swift; path = Sources/Nimble/Matchers/EndWith.swift; sourceTree = "<group>"; };
+		000000000730 /* Equal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Equal.swift; path = Sources/Nimble/Matchers/Equal.swift; sourceTree = "<group>"; };
+		000000000740 /* HaveCount.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HaveCount.swift; path = Sources/Nimble/Matchers/HaveCount.swift; sourceTree = "<group>"; };
+		000000000750 /* Match.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Match.swift; path = Sources/Nimble/Matchers/Match.swift; sourceTree = "<group>"; };
+		000000000760 /* MatcherFunc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherFunc.swift; path = Sources/Nimble/Matchers/MatcherFunc.swift; sourceTree = "<group>"; };
+		000000000770 /* MatcherProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherProtocols.swift; path = Sources/Nimble/Matchers/MatcherProtocols.swift; sourceTree = "<group>"; };
+		000000000780 /* MatchError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchError.swift; path = Sources/Nimble/Matchers/MatchError.swift; sourceTree = "<group>"; };
+		000000000790 /* PostNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PostNotification.swift; path = Sources/Nimble/Matchers/PostNotification.swift; sourceTree = "<group>"; };
+		0000000007A0 /* Predicate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Predicate.swift; path = Sources/Nimble/Matchers/Predicate.swift; sourceTree = "<group>"; };
+		0000000007B0 /* RaisesException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RaisesException.swift; path = Sources/Nimble/Matchers/RaisesException.swift; sourceTree = "<group>"; };
+		0000000007C0 /* SatisfyAnyOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SatisfyAnyOf.swift; path = Sources/Nimble/Matchers/SatisfyAnyOf.swift; sourceTree = "<group>"; };
+		0000000007D0 /* ThrowAssertion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowAssertion.swift; path = Sources/Nimble/Matchers/ThrowAssertion.swift; sourceTree = "<group>"; };
+		0000000007E0 /* ThrowError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowError.swift; path = Sources/Nimble/Matchers/ThrowError.swift; sourceTree = "<group>"; };
+		0000000007F0 /* ToSucceed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToSucceed.swift; path = Sources/Nimble/Matchers/ToSucceed.swift; sourceTree = "<group>"; };
+		000000000800 /* Nimble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nimble.h; path = Sources/Nimble/Nimble.h; sourceTree = "<group>"; };
+		000000000810 /* Async.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Async.swift; path = Sources/Nimble/Utils/Async.swift; sourceTree = "<group>"; };
+		000000000820 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/Nimble/Utils/Errors.swift; sourceTree = "<group>"; };
+		000000000830 /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Sources/Nimble/Utils/Functional.swift; sourceTree = "<group>"; };
+		000000000840 /* SourceLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceLocation.swift; path = Sources/Nimble/Utils/SourceLocation.swift; sourceTree = "<group>"; };
+		000000000850 /* Stringers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stringers.swift; path = Sources/Nimble/Utils/Stringers.swift; sourceTree = "<group>"; };
+		000000000860 /* CurrentTestCaseTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CurrentTestCaseTracker.h; path = Sources/NimbleObjectiveC/CurrentTestCaseTracker.h; sourceTree = "<group>"; };
+		000000000870 /* DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DSL.h; path = Sources/NimbleObjectiveC/DSL.h; sourceTree = "<group>"; };
+		000000000880 /* DSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DSL.m; path = Sources/NimbleObjectiveC/DSL.m; sourceTree = "<group>"; };
+		000000000890 /* NMBExceptionCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBExceptionCapture.h; path = Sources/NimbleObjectiveC/NMBExceptionCapture.h; sourceTree = "<group>"; };
+		0000000008A0 /* NMBExceptionCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBExceptionCapture.m; path = Sources/NimbleObjectiveC/NMBExceptionCapture.m; sourceTree = "<group>"; };
+		0000000008B0 /* NMBStringify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBStringify.h; path = Sources/NimbleObjectiveC/NMBStringify.h; sourceTree = "<group>"; };
+		0000000008C0 /* NMBStringify.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBStringify.m; path = Sources/NimbleObjectiveC/NMBStringify.m; sourceTree = "<group>"; };
+		0000000008D0 /* XCTestObservationCenter+Register.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestObservationCenter+Register.m"; path = "Sources/NimbleObjectiveC/XCTestObservationCenter+Register.m"; sourceTree = "<group>"; };
+		0000000008E0 /* CwlCatchException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchException.swift; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchException/CwlCatchException.swift; sourceTree = "<group>"; };
+		0000000008F0 /* CwlCatchException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CwlCatchException.m; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/CwlCatchException.m; sourceTree = "<group>"; };
+		000000000900 /* CwlCatchException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlCatchException.h; path = Carthage/Checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchException.h; sourceTree = "<group>"; };
+		000000000910 /* CwlMachBadInstructionHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CwlMachBadInstructionHandler.m; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/CwlMachBadInstructionHandler.m; sourceTree = "<group>"; };
+		000000000920 /* CwlMachBadInstructionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlMachBadInstructionHandler.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/include/CwlMachBadInstructionHandler.h; sourceTree = "<group>"; };
+		000000000930 /* mach_excServer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mach_excServer.c; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.c; sourceTree = "<group>"; };
+		000000000940 /* mach_excServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mach_excServer.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlMachBadInstructionHandler/mach_excServer.h; sourceTree = "<group>"; };
+		000000000950 /* CwlBadInstructionException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlBadInstructionException.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlBadInstructionException.swift; sourceTree = "<group>"; };
+		000000000960 /* CwlCatchBadInstruction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlCatchBadInstruction.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlCatchBadInstruction.swift; sourceTree = "<group>"; };
+		000000000970 /* CwlDarwinDefinitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlDarwinDefinitions.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlDarwinDefinitions.swift; sourceTree = "<group>"; };
+		000000000980 /* CwlPreconditionTesting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlPreconditionTesting.h; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/Mach/CwlPreconditionTesting.h; sourceTree = "<group>"; };
+		0000000009D0 /* KIF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KIF.framework; path = KIF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000A30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		000000000EC0 /* KIF.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KIF.xcconfig; sourceTree = "<group>"; };
+		000000000ED0 /* KIF.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KIF.modulemap; sourceTree = "<group>"; };
+		000000000EE0 /* KIF-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KIF-umbrella.h"; sourceTree = "<group>"; };
+		000000000F00 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000000000F10 /* KIF-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KIF-prefix.pch"; sourceTree = "<group>"; };
+		000000000F20 /* KIF-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KIF-dummy.m"; sourceTree = "<group>"; };
+		000000000F80 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nimble.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000001440 /* Nimble.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nimble.xcconfig; sourceTree = "<group>"; };
+		000000001450 /* Nimble.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Nimble.modulemap; sourceTree = "<group>"; };
+		000000001460 /* Nimble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-umbrella.h"; sourceTree = "<group>"; };
+		000000001480 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000000001490 /* Nimble-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nimble-prefix.pch"; sourceTree = "<group>"; };
+		0000000014A0 /* Nimble-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nimble-dummy.m"; sourceTree = "<group>"; };
+		000000001500 /* Pods_ImagePickerSheetController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImagePickerSheetController.framework; path = "Pods-ImagePickerSheetController.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000001570 /* Pods-ImagePickerSheetController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePickerSheetController.release.xcconfig"; sourceTree = "<group>"; };
+		000000001580 /* Pods-ImagePickerSheetController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePickerSheetController.debug.xcconfig"; sourceTree = "<group>"; };
+		000000001590 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0000000015A0 /* Pods-ImagePickerSheetController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImagePickerSheetController.modulemap"; sourceTree = "<group>"; };
+		0000000015B0 /* Pods-ImagePickerSheetController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImagePickerSheetController-umbrella.h"; sourceTree = "<group>"; };
+		0000000015D0 /* Pods-ImagePickerSheetController-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImagePickerSheetController-resources.sh"; sourceTree = "<group>"; };
+		0000000015E0 /* Pods-ImagePickerSheetController-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImagePickerSheetController-acknowledgements.plist"; sourceTree = "<group>"; };
+		0000000015F0 /* Pods-ImagePickerSheetController-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImagePickerSheetController-acknowledgements.markdown"; sourceTree = "<group>"; };
+		000000001600 /* Pods-ImagePickerSheetController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImagePickerSheetController-dummy.m"; sourceTree = "<group>"; };
+		000000001660 /* Pods_ImagePickerSheetControllerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImagePickerSheetControllerTests.framework; path = "Pods-ImagePickerSheetControllerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0000000016D0 /* Pods-ImagePickerSheetControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePickerSheetControllerTests.release.xcconfig"; sourceTree = "<group>"; };
+		0000000016E0 /* Pods-ImagePickerSheetControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePickerSheetControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0000000016F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000000001700 /* Pods-ImagePickerSheetControllerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImagePickerSheetControllerTests.modulemap"; sourceTree = "<group>"; };
+		000000001710 /* Pods-ImagePickerSheetControllerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImagePickerSheetControllerTests-umbrella.h"; sourceTree = "<group>"; };
+		000000001730 /* Pods-ImagePickerSheetControllerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImagePickerSheetControllerTests-frameworks.sh"; sourceTree = "<group>"; };
+		000000001740 /* Pods-ImagePickerSheetControllerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImagePickerSheetControllerTests-resources.sh"; sourceTree = "<group>"; };
+		000000001750 /* Pods-ImagePickerSheetControllerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImagePickerSheetControllerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		000000001760 /* Pods-ImagePickerSheetControllerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImagePickerSheetControllerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		000000001770 /* Pods-ImagePickerSheetControllerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImagePickerSheetControllerTests-dummy.m"; sourceTree = "<group>"; };
+		000000001790 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		0000000017B0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		0000000017D0 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
+		0000000017F0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0000000005A0 /* Frameworks */ = {
+		000000000A00 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				000000000DC0 /* CoreGraphics.framework in Frameworks */,
-				0000000005E0 /* Foundation.framework in Frameworks */,
-				000000000E00 /* IOKit.framework in Frameworks */,
-				000000000DE0 /* QuartzCore.framework in Frameworks */,
-				000000000E20 /* XCTest.framework in Frameworks */,
+				0000000017A0 /* CoreGraphics.framework in Frameworks */,
+				000000000A40 /* Foundation.framework in Frameworks */,
+				0000000017E0 /* IOKit.framework in Frameworks */,
+				0000000017C0 /* QuartzCore.framework in Frameworks */,
+				000000001800 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		000000000B50 /* Frameworks */ = {
+		000000000FB0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				000000000B70 /* Foundation.framework in Frameworks */,
+				000000000FD0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		000000000CB0 /* Frameworks */ = {
+		000000001530 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				000000000CD0 /* Foundation.framework in Frameworks */,
+				000000001550 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000001690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0000000016B0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +414,7 @@
 		000000000010 = {
 			isa = PBXGroup;
 			children = (
-				0000000000B0 /* Podfile */,
+				0000000000C0 /* Podfile */,
 				000000000060 /* Frameworks */,
 				000000000080 /* Pods */,
 				000000000020 /* Products */,
@@ -262,9 +425,10 @@
 		000000000020 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				000000000570 /* KIF.framework */,
-				000000000B20 /* Pods_ImagePickerSheetController.framework */,
-				000000000C80 /* Pods_ImagePickerSheetControllerTests.framework */,
+				0000000009D0 /* KIF.framework */,
+				000000000F80 /* Nimble.framework */,
+				000000001500 /* Pods_ImagePickerSheetController.framework */,
+				000000001660 /* Pods_ImagePickerSheetControllerTests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -272,7 +436,7 @@
 		000000000060 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0000000005C0 /* iOS */,
+				000000000A20 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -280,8 +444,8 @@
 		000000000070 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				000000000B80 /* Pods-ImagePickerSheetController */,
-				000000000CE0 /* Pods-ImagePickerSheetControllerTests */,
+				000000001560 /* Pods-ImagePickerSheetController */,
+				0000000016C0 /* Pods-ImagePickerSheetControllerTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -290,6 +454,7 @@
 			isa = PBXGroup;
 			children = (
 				0000000000A0 /* KIF */,
+				0000000000B0 /* Nimble */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -297,146 +462,238 @@
 		0000000000A0 /* KIF */ = {
 			isa = PBXGroup;
 			children = (
-				0000000000C0 /* Core */,
-				000000000A50 /* Support Files */,
+				0000000000D0 /* Core */,
+				000000000EB0 /* Support Files */,
 			);
 			name = KIF;
 			path = KIF;
 			sourceTree = "<group>";
 		};
-		0000000000C0 /* Core */ = {
+		0000000000B0 /* Nimble */ = {
 			isa = PBXGroup;
 			children = (
-				0000000002A0 /* CAAnimation+KIFAdditions.h */,
-				0000000002B0 /* CAAnimation+KIFAdditions.m */,
-				0000000002C0 /* CALayer-KIFAdditions.h */,
-				0000000002D0 /* CALayer-KIFAdditions.m */,
-				0000000002E0 /* CGGeometry-KIFAdditions.h */,
-				0000000002F0 /* CGGeometry-KIFAdditions.m */,
-				0000000000D0 /* IOHIDEvent+KIF.h */,
-				0000000000E0 /* IOHIDEvent+KIF.m */,
-				0000000000F0 /* KIF.h */,
-				000000000100 /* KIFAccessibilityEnabler.h */,
-				000000000110 /* KIFAccessibilityEnabler.m */,
-				000000000120 /* KIFSystemTestActor.h */,
-				000000000130 /* KIFSystemTestActor.m */,
-				000000000140 /* KIFTestActor.h */,
-				000000000150 /* KIFTestActor.m */,
-				000000000160 /* KIFTestActor_Private.h */,
-				000000000170 /* KIFTestCase.h */,
-				000000000180 /* KIFTestCase.m */,
-				000000000190 /* KIFTestStepValidation.h */,
-				0000000001A0 /* KIFTestStepValidation.m */,
-				0000000001B0 /* KIFTextInputTraitsOverrides.h */,
-				0000000001C0 /* KIFTextInputTraitsOverrides.m */,
-				0000000001D0 /* KIFTypist.h */,
-				0000000001E0 /* KIFTypist.m */,
-				0000000001F0 /* KIFUIObject.h */,
-				000000000200 /* KIFUIObject.m */,
-				000000000230 /* KIFUITestActor.h */,
-				000000000240 /* KIFUITestActor.m */,
-				000000000210 /* KIFUITestActor-ConditionalTests.h */,
-				000000000220 /* KIFUITestActor-ConditionalTests.m */,
-				000000000250 /* KIFUITestActor_Private.h */,
-				000000000260 /* KIFUIViewTestActor.h */,
-				000000000270 /* KIFUIViewTestActor.m */,
-				000000000300 /* LoadableCategory.h */,
-				000000000310 /* NSBundle-KIFAdditions.h */,
-				000000000320 /* NSBundle-KIFAdditions.m */,
-				000000000330 /* NSError-KIFAdditions.h */,
-				000000000340 /* NSError-KIFAdditions.m */,
-				000000000350 /* NSException-KIFAdditions.h */,
-				000000000360 /* NSException-KIFAdditions.m */,
-				000000000370 /* NSFileManager-KIFAdditions.h */,
-				000000000380 /* NSFileManager-KIFAdditions.m */,
-				000000000390 /* NSPredicate+KIFAdditions.h */,
-				0000000003A0 /* NSPredicate+KIFAdditions.m */,
-				0000000003B0 /* NSString+KIFAdditions.h */,
-				0000000003C0 /* NSString+KIFAdditions.m */,
-				0000000003D0 /* UIAccessibilityElement-KIFAdditions.h */,
-				0000000003E0 /* UIAccessibilityElement-KIFAdditions.m */,
-				0000000003F0 /* UIApplication-KIFAdditions.h */,
-				000000000400 /* UIApplication-KIFAdditions.m */,
-				000000000280 /* UIAutomationHelper.h */,
-				000000000290 /* UIAutomationHelper.m */,
-				000000000410 /* UIEvent+KIFAdditions.h */,
-				000000000420 /* UIEvent+KIFAdditions.m */,
-				000000000430 /* UIScreen+KIFAdditions.h */,
-				000000000440 /* UIScreen+KIFAdditions.m */,
-				000000000450 /* UIScrollView-KIFAdditions.h */,
-				000000000460 /* UIScrollView-KIFAdditions.m */,
-				000000000470 /* UITableView-KIFAdditions.h */,
-				000000000480 /* UITableView-KIFAdditions.m */,
-				000000000490 /* UITouch-KIFAdditions.h */,
-				0000000004A0 /* UITouch-KIFAdditions.m */,
-				0000000004B0 /* UIView-Debugging.h */,
-				0000000004C0 /* UIView-Debugging.m */,
-				0000000004D0 /* UIView-KIFAdditions.h */,
-				0000000004E0 /* UIView-KIFAdditions.m */,
-				0000000004F0 /* UIWindow-KIFAdditions.h */,
-				000000000500 /* UIWindow-KIFAdditions.m */,
-				000000000510 /* XCTestCase-KIFAdditions.h */,
-				000000000520 /* XCTestCase-KIFAdditions.m */,
+				000000000540 /* AdapterProtocols.swift */,
+				000000000610 /* AllPass.swift */,
+				000000000550 /* AssertionDispatcher.swift */,
+				000000000560 /* AssertionRecorder.swift */,
+				000000000810 /* Async.swift */,
+				000000000620 /* AsyncMatcherWrapper.swift */,
+				000000000630 /* BeAKindOf.swift */,
+				000000000640 /* BeAnInstanceOf.swift */,
+				000000000650 /* BeCloseTo.swift */,
+				000000000660 /* BeEmpty.swift */,
+				000000000670 /* BeginWith.swift */,
+				000000000680 /* BeGreaterThan.swift */,
+				000000000690 /* BeGreaterThanOrEqualTo.swift */,
+				0000000006A0 /* BeIdenticalTo.swift */,
+				0000000006B0 /* BeLessThan.swift */,
+				0000000006C0 /* BeLessThanOrEqual.swift */,
+				0000000006D0 /* BeLogical.swift */,
+				0000000006E0 /* BeNil.swift */,
+				0000000006F0 /* BeVoid.swift */,
+				000000000700 /* Contain.swift */,
+				000000000710 /* ContainElementSatisfying.swift */,
+				000000000860 /* CurrentTestCaseTracker.h */,
+				000000000950 /* CwlBadInstructionException.swift */,
+				000000000960 /* CwlCatchBadInstruction.swift */,
+				000000000900 /* CwlCatchException.h */,
+				0000000008F0 /* CwlCatchException.m */,
+				0000000008E0 /* CwlCatchException.swift */,
+				000000000970 /* CwlDarwinDefinitions.swift */,
+				000000000920 /* CwlMachBadInstructionHandler.h */,
+				000000000910 /* CwlMachBadInstructionHandler.m */,
+				000000000980 /* CwlPreconditionTesting.h */,
+				000000000870 /* DSL.h */,
+				000000000880 /* DSL.m */,
+				0000000005C0 /* DSL.swift */,
+				0000000005B0 /* DSL+Wait.swift */,
+				000000000720 /* EndWith.swift */,
+				000000000730 /* Equal.swift */,
+				000000000820 /* Errors.swift */,
+				0000000005D0 /* Expectation.swift */,
+				0000000005E0 /* ExpectationMessage.swift */,
+				0000000005F0 /* Expression.swift */,
+				000000000600 /* FailureMessage.swift */,
+				000000000830 /* Functional.swift */,
+				000000000740 /* HaveCount.swift */,
+				000000000930 /* mach_excServer.c */,
+				000000000940 /* mach_excServer.h */,
+				000000000750 /* Match.swift */,
+				000000000760 /* MatcherFunc.swift */,
+				000000000770 /* MatcherProtocols.swift */,
+				000000000780 /* MatchError.swift */,
+				000000000800 /* Nimble.h */,
+				000000000570 /* NimbleEnvironment.swift */,
+				000000000580 /* NimbleXCTestHandler.swift */,
+				000000000890 /* NMBExceptionCapture.h */,
+				0000000008A0 /* NMBExceptionCapture.m */,
+				000000000590 /* NMBExpectation.swift */,
+				0000000005A0 /* NMBObjCMatcher.swift */,
+				0000000008B0 /* NMBStringify.h */,
+				0000000008C0 /* NMBStringify.m */,
+				000000000790 /* PostNotification.swift */,
+				0000000007A0 /* Predicate.swift */,
+				0000000007B0 /* RaisesException.swift */,
+				0000000007C0 /* SatisfyAnyOf.swift */,
+				000000000840 /* SourceLocation.swift */,
+				000000000850 /* Stringers.swift */,
+				0000000007D0 /* ThrowAssertion.swift */,
+				0000000007E0 /* ThrowError.swift */,
+				0000000007F0 /* ToSucceed.swift */,
+				0000000008D0 /* XCTestObservationCenter+Register.m */,
+				000000001430 /* Support Files */,
+			);
+			name = Nimble;
+			path = Nimble;
+			sourceTree = "<group>";
+		};
+		0000000000D0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0000000002B0 /* CAAnimation+KIFAdditions.h */,
+				0000000002C0 /* CAAnimation+KIFAdditions.m */,
+				0000000002D0 /* CALayer-KIFAdditions.h */,
+				0000000002E0 /* CALayer-KIFAdditions.m */,
+				0000000002F0 /* CGGeometry-KIFAdditions.h */,
+				000000000300 /* CGGeometry-KIFAdditions.m */,
+				0000000000E0 /* IOHIDEvent+KIF.h */,
+				0000000000F0 /* IOHIDEvent+KIF.m */,
+				000000000100 /* KIF.h */,
+				000000000110 /* KIFAccessibilityEnabler.h */,
+				000000000120 /* KIFAccessibilityEnabler.m */,
+				000000000130 /* KIFSystemTestActor.h */,
+				000000000140 /* KIFSystemTestActor.m */,
+				000000000150 /* KIFTestActor.h */,
+				000000000160 /* KIFTestActor.m */,
+				000000000170 /* KIFTestActor_Private.h */,
+				000000000180 /* KIFTestCase.h */,
+				000000000190 /* KIFTestCase.m */,
+				0000000001A0 /* KIFTestStepValidation.h */,
+				0000000001B0 /* KIFTestStepValidation.m */,
+				0000000001C0 /* KIFTextInputTraitsOverrides.h */,
+				0000000001D0 /* KIFTextInputTraitsOverrides.m */,
+				0000000001E0 /* KIFTypist.h */,
+				0000000001F0 /* KIFTypist.m */,
+				000000000200 /* KIFUIObject.h */,
+				000000000210 /* KIFUIObject.m */,
+				000000000240 /* KIFUITestActor.h */,
+				000000000250 /* KIFUITestActor.m */,
+				000000000220 /* KIFUITestActor-ConditionalTests.h */,
+				000000000230 /* KIFUITestActor-ConditionalTests.m */,
+				000000000260 /* KIFUITestActor_Private.h */,
+				000000000270 /* KIFUIViewTestActor.h */,
+				000000000280 /* KIFUIViewTestActor.m */,
+				000000000310 /* LoadableCategory.h */,
+				000000000320 /* NSBundle-KIFAdditions.h */,
+				000000000330 /* NSBundle-KIFAdditions.m */,
+				000000000340 /* NSError-KIFAdditions.h */,
+				000000000350 /* NSError-KIFAdditions.m */,
+				000000000360 /* NSException-KIFAdditions.h */,
+				000000000370 /* NSException-KIFAdditions.m */,
+				000000000380 /* NSFileManager-KIFAdditions.h */,
+				000000000390 /* NSFileManager-KIFAdditions.m */,
+				0000000003A0 /* NSPredicate+KIFAdditions.h */,
+				0000000003B0 /* NSPredicate+KIFAdditions.m */,
+				0000000003C0 /* NSString+KIFAdditions.h */,
+				0000000003D0 /* NSString+KIFAdditions.m */,
+				0000000003E0 /* UIAccessibilityElement-KIFAdditions.h */,
+				0000000003F0 /* UIAccessibilityElement-KIFAdditions.m */,
+				000000000400 /* UIApplication-KIFAdditions.h */,
+				000000000410 /* UIApplication-KIFAdditions.m */,
+				000000000290 /* UIAutomationHelper.h */,
+				0000000002A0 /* UIAutomationHelper.m */,
+				000000000420 /* UIEvent+KIFAdditions.h */,
+				000000000430 /* UIEvent+KIFAdditions.m */,
+				000000000440 /* UIScreen+KIFAdditions.h */,
+				000000000450 /* UIScreen+KIFAdditions.m */,
+				000000000460 /* UIScrollView-KIFAdditions.h */,
+				000000000470 /* UIScrollView-KIFAdditions.m */,
+				000000000480 /* UITableView-KIFAdditions.h */,
+				000000000490 /* UITableView-KIFAdditions.m */,
+				0000000004A0 /* UITouch-KIFAdditions.h */,
+				0000000004B0 /* UITouch-KIFAdditions.m */,
+				0000000004C0 /* UIView-Debugging.h */,
+				0000000004D0 /* UIView-Debugging.m */,
+				0000000004E0 /* UIView-KIFAdditions.h */,
+				0000000004F0 /* UIView-KIFAdditions.m */,
+				000000000500 /* UIWindow-KIFAdditions.h */,
+				000000000510 /* UIWindow-KIFAdditions.m */,
+				000000000520 /* XCTestCase-KIFAdditions.h */,
+				000000000530 /* XCTestCase-KIFAdditions.m */,
 			);
 			name = Core;
 			sourceTree = "<group>";
 		};
-		0000000005C0 /* iOS */ = {
+		000000000A20 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				000000000DB0 /* CoreGraphics.framework */,
-				0000000005D0 /* Foundation.framework */,
-				000000000DF0 /* IOKit.framework */,
-				000000000DD0 /* QuartzCore.framework */,
-				000000000E10 /* XCTest.framework */,
+				000000001790 /* CoreGraphics.framework */,
+				000000000A30 /* Foundation.framework */,
+				0000000017D0 /* IOKit.framework */,
+				0000000017B0 /* QuartzCore.framework */,
+				0000000017F0 /* XCTest.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		000000000A50 /* Support Files */ = {
+		000000000EB0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				000000000AA0 /* Info.plist */,
-				000000000A70 /* KIF.modulemap */,
-				000000000A60 /* KIF.xcconfig */,
-				000000000AC0 /* KIF-dummy.m */,
-				000000000AB0 /* KIF-prefix.pch */,
-				000000000A80 /* KIF-umbrella.h */,
+				000000000F00 /* Info.plist */,
+				000000000ED0 /* KIF.modulemap */,
+				000000000EC0 /* KIF.xcconfig */,
+				000000000F20 /* KIF-dummy.m */,
+				000000000F10 /* KIF-prefix.pch */,
+				000000000EE0 /* KIF-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/KIF";
 			sourceTree = "<group>";
 		};
-		000000000B80 /* Pods-ImagePickerSheetController */ = {
+		000000001430 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				000000000BB0 /* Info.plist */,
-				000000000BC0 /* Pods-ImagePickerSheetController.modulemap */,
-				000000000C10 /* Pods-ImagePickerSheetController-acknowledgements.markdown */,
-				000000000C00 /* Pods-ImagePickerSheetController-acknowledgements.plist */,
-				000000000C20 /* Pods-ImagePickerSheetController-dummy.m */,
-				000000000BF0 /* Pods-ImagePickerSheetController-resources.sh */,
-				000000000BD0 /* Pods-ImagePickerSheetController-umbrella.h */,
-				000000000BA0 /* Pods-ImagePickerSheetController.debug.xcconfig */,
-				000000000B90 /* Pods-ImagePickerSheetController.release.xcconfig */,
+				000000001480 /* Info.plist */,
+				000000001450 /* Nimble.modulemap */,
+				000000001440 /* Nimble.xcconfig */,
+				0000000014A0 /* Nimble-dummy.m */,
+				000000001490 /* Nimble-prefix.pch */,
+				000000001460 /* Nimble-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Nimble";
+			sourceTree = "<group>";
+		};
+		000000001560 /* Pods-ImagePickerSheetController */ = {
+			isa = PBXGroup;
+			children = (
+				000000001590 /* Info.plist */,
+				0000000015A0 /* Pods-ImagePickerSheetController.modulemap */,
+				0000000015F0 /* Pods-ImagePickerSheetController-acknowledgements.markdown */,
+				0000000015E0 /* Pods-ImagePickerSheetController-acknowledgements.plist */,
+				000000001600 /* Pods-ImagePickerSheetController-dummy.m */,
+				0000000015D0 /* Pods-ImagePickerSheetController-resources.sh */,
+				0000000015B0 /* Pods-ImagePickerSheetController-umbrella.h */,
+				000000001580 /* Pods-ImagePickerSheetController.debug.xcconfig */,
+				000000001570 /* Pods-ImagePickerSheetController.release.xcconfig */,
 			);
 			name = "Pods-ImagePickerSheetController";
 			path = "Target Support Files/Pods-ImagePickerSheetController";
 			sourceTree = "<group>";
 		};
-		000000000CE0 /* Pods-ImagePickerSheetControllerTests */ = {
+		0000000016C0 /* Pods-ImagePickerSheetControllerTests */ = {
 			isa = PBXGroup;
 			children = (
-				000000000D10 /* Info.plist */,
-				000000000D20 /* Pods-ImagePickerSheetControllerTests.modulemap */,
-				000000000D80 /* Pods-ImagePickerSheetControllerTests-acknowledgements.markdown */,
-				000000000D70 /* Pods-ImagePickerSheetControllerTests-acknowledgements.plist */,
-				000000000D90 /* Pods-ImagePickerSheetControllerTests-dummy.m */,
-				000000000D50 /* Pods-ImagePickerSheetControllerTests-frameworks.sh */,
-				000000000D60 /* Pods-ImagePickerSheetControllerTests-resources.sh */,
-				000000000D30 /* Pods-ImagePickerSheetControllerTests-umbrella.h */,
-				000000000D00 /* Pods-ImagePickerSheetControllerTests.debug.xcconfig */,
-				000000000CF0 /* Pods-ImagePickerSheetControllerTests.release.xcconfig */,
+				0000000016F0 /* Info.plist */,
+				000000001700 /* Pods-ImagePickerSheetControllerTests.modulemap */,
+				000000001760 /* Pods-ImagePickerSheetControllerTests-acknowledgements.markdown */,
+				000000001750 /* Pods-ImagePickerSheetControllerTests-acknowledgements.plist */,
+				000000001770 /* Pods-ImagePickerSheetControllerTests-dummy.m */,
+				000000001730 /* Pods-ImagePickerSheetControllerTests-frameworks.sh */,
+				000000001740 /* Pods-ImagePickerSheetControllerTests-resources.sh */,
+				000000001710 /* Pods-ImagePickerSheetControllerTests-umbrella.h */,
+				0000000016E0 /* Pods-ImagePickerSheetControllerTests.debug.xcconfig */,
+				0000000016D0 /* Pods-ImagePickerSheetControllerTests.release.xcconfig */,
 			);
 			name = "Pods-ImagePickerSheetControllerTests";
 			path = "Target Support Files/Pods-ImagePickerSheetControllerTests";
@@ -445,78 +702,95 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		000000000580 /* Headers */ = {
+		0000000009E0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				000000000900 /* CAAnimation+KIFAdditions.h in Headers */,
-				000000000910 /* CALayer-KIFAdditions.h in Headers */,
-				000000000920 /* CGGeometry-KIFAdditions.h in Headers */,
-				000000000800 /* IOHIDEvent+KIF.h in Headers */,
-				000000000A90 /* KIF-umbrella.h in Headers */,
-				000000000810 /* KIF.h in Headers */,
-				000000000820 /* KIFAccessibilityEnabler.h in Headers */,
-				000000000830 /* KIFSystemTestActor.h in Headers */,
-				000000000840 /* KIFTestActor.h in Headers */,
-				000000000850 /* KIFTestActor_Private.h in Headers */,
-				000000000860 /* KIFTestCase.h in Headers */,
-				000000000870 /* KIFTestStepValidation.h in Headers */,
-				000000000880 /* KIFTextInputTraitsOverrides.h in Headers */,
-				000000000890 /* KIFTypist.h in Headers */,
-				0000000008A0 /* KIFUIObject.h in Headers */,
-				0000000008B0 /* KIFUITestActor-ConditionalTests.h in Headers */,
-				0000000008C0 /* KIFUITestActor.h in Headers */,
-				0000000008D0 /* KIFUITestActor_Private.h in Headers */,
-				0000000008E0 /* KIFUIViewTestActor.h in Headers */,
-				000000000930 /* LoadableCategory.h in Headers */,
-				000000000940 /* NSBundle-KIFAdditions.h in Headers */,
-				000000000950 /* NSError-KIFAdditions.h in Headers */,
-				000000000960 /* NSException-KIFAdditions.h in Headers */,
-				000000000970 /* NSFileManager-KIFAdditions.h in Headers */,
-				000000000980 /* NSPredicate+KIFAdditions.h in Headers */,
-				000000000990 /* NSString+KIFAdditions.h in Headers */,
-				0000000009A0 /* UIAccessibilityElement-KIFAdditions.h in Headers */,
-				0000000009B0 /* UIApplication-KIFAdditions.h in Headers */,
-				0000000008F0 /* UIAutomationHelper.h in Headers */,
-				0000000009C0 /* UIEvent+KIFAdditions.h in Headers */,
-				0000000009D0 /* UIScreen+KIFAdditions.h in Headers */,
-				0000000009E0 /* UIScrollView-KIFAdditions.h in Headers */,
-				0000000009F0 /* UITableView-KIFAdditions.h in Headers */,
-				000000000A00 /* UITouch-KIFAdditions.h in Headers */,
-				000000000A10 /* UIView-Debugging.h in Headers */,
-				000000000A20 /* UIView-KIFAdditions.h in Headers */,
-				000000000A30 /* UIWindow-KIFAdditions.h in Headers */,
-				000000000A40 /* XCTestCase-KIFAdditions.h in Headers */,
+				000000000D60 /* CAAnimation+KIFAdditions.h in Headers */,
+				000000000D70 /* CALayer-KIFAdditions.h in Headers */,
+				000000000D80 /* CGGeometry-KIFAdditions.h in Headers */,
+				000000000C60 /* IOHIDEvent+KIF.h in Headers */,
+				000000000EF0 /* KIF-umbrella.h in Headers */,
+				000000000C70 /* KIF.h in Headers */,
+				000000000C80 /* KIFAccessibilityEnabler.h in Headers */,
+				000000000C90 /* KIFSystemTestActor.h in Headers */,
+				000000000CA0 /* KIFTestActor.h in Headers */,
+				000000000CB0 /* KIFTestActor_Private.h in Headers */,
+				000000000CC0 /* KIFTestCase.h in Headers */,
+				000000000CD0 /* KIFTestStepValidation.h in Headers */,
+				000000000CE0 /* KIFTextInputTraitsOverrides.h in Headers */,
+				000000000CF0 /* KIFTypist.h in Headers */,
+				000000000D00 /* KIFUIObject.h in Headers */,
+				000000000D10 /* KIFUITestActor-ConditionalTests.h in Headers */,
+				000000000D20 /* KIFUITestActor.h in Headers */,
+				000000000D30 /* KIFUITestActor_Private.h in Headers */,
+				000000000D40 /* KIFUIViewTestActor.h in Headers */,
+				000000000D90 /* LoadableCategory.h in Headers */,
+				000000000DA0 /* NSBundle-KIFAdditions.h in Headers */,
+				000000000DB0 /* NSError-KIFAdditions.h in Headers */,
+				000000000DC0 /* NSException-KIFAdditions.h in Headers */,
+				000000000DD0 /* NSFileManager-KIFAdditions.h in Headers */,
+				000000000DE0 /* NSPredicate+KIFAdditions.h in Headers */,
+				000000000DF0 /* NSString+KIFAdditions.h in Headers */,
+				000000000E00 /* UIAccessibilityElement-KIFAdditions.h in Headers */,
+				000000000E10 /* UIApplication-KIFAdditions.h in Headers */,
+				000000000D50 /* UIAutomationHelper.h in Headers */,
+				000000000E20 /* UIEvent+KIFAdditions.h in Headers */,
+				000000000E30 /* UIScreen+KIFAdditions.h in Headers */,
+				000000000E40 /* UIScrollView-KIFAdditions.h in Headers */,
+				000000000E50 /* UITableView-KIFAdditions.h in Headers */,
+				000000000E60 /* UITouch-KIFAdditions.h in Headers */,
+				000000000E70 /* UIView-Debugging.h in Headers */,
+				000000000E80 /* UIView-KIFAdditions.h in Headers */,
+				000000000E90 /* UIWindow-KIFAdditions.h in Headers */,
+				000000000EA0 /* XCTestCase-KIFAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		000000000B30 /* Headers */ = {
+		000000000F90 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				000000000BE0 /* Pods-ImagePickerSheetController-umbrella.h in Headers */,
+				0000000013B0 /* CurrentTestCaseTracker.h in Headers */,
+				0000000013F0 /* CwlCatchException.h in Headers */,
+				000000001400 /* CwlMachBadInstructionHandler.h in Headers */,
+				000000001420 /* CwlPreconditionTesting.h in Headers */,
+				0000000013C0 /* DSL.h in Headers */,
+				000000001410 /* mach_excServer.h in Headers */,
+				000000001470 /* Nimble-umbrella.h in Headers */,
+				0000000013A0 /* Nimble.h in Headers */,
+				0000000013D0 /* NMBExceptionCapture.h in Headers */,
+				0000000013E0 /* NMBStringify.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		000000000C90 /* Headers */ = {
+		000000001510 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				000000000D40 /* Pods-ImagePickerSheetControllerTests-umbrella.h in Headers */,
+				0000000015C0 /* Pods-ImagePickerSheetController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000001670 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000001720 /* Pods-ImagePickerSheetControllerTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		000000000530 /* KIF */ = {
+		000000000990 /* KIF */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 000000000540 /* Build configuration list for PBXNativeTarget "KIF" */;
+			buildConfigurationList = 0000000009A0 /* Build configuration list for PBXNativeTarget "KIF" */;
 			buildPhases = (
-				000000000580 /* Headers */,
-				000000000590 /* Sources */,
-				0000000005A0 /* Frameworks */,
-				0000000005B0 /* Resources */,
+				0000000009E0 /* Headers */,
+				0000000009F0 /* Sources */,
+				000000000A00 /* Frameworks */,
+				000000000A10 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -524,45 +798,64 @@
 			);
 			name = KIF;
 			productName = KIF;
-			productReference = 000000000570 /* KIF.framework */;
+			productReference = 0000000009D0 /* KIF.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		000000000AE0 /* Pods-ImagePickerSheetController */ = {
+		000000000F40 /* Nimble */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 000000000AF0 /* Build configuration list for PBXNativeTarget "Pods-ImagePickerSheetController" */;
+			buildConfigurationList = 000000000F50 /* Build configuration list for PBXNativeTarget "Nimble" */;
 			buildPhases = (
-				000000000B30 /* Headers */,
-				000000000B40 /* Sources */,
-				000000000B50 /* Frameworks */,
-				000000000B60 /* Resources */,
+				000000000F90 /* Headers */,
+				000000000FA0 /* Sources */,
+				000000000FB0 /* Frameworks */,
+				000000000FC0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				000000000E40 /* PBXTargetDependency */,
+			);
+			name = Nimble;
+			productName = Nimble;
+			productReference = 000000000F80 /* Nimble.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0000000014C0 /* Pods-ImagePickerSheetController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0000000014D0 /* Build configuration list for PBXNativeTarget "Pods-ImagePickerSheetController" */;
+			buildPhases = (
+				000000001510 /* Headers */,
+				000000001520 /* Sources */,
+				000000001530 /* Frameworks */,
+				000000001540 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000000001820 /* PBXTargetDependency */,
 			);
 			name = "Pods-ImagePickerSheetController";
 			productName = "Pods-ImagePickerSheetController";
-			productReference = 000000000B20 /* Pods_ImagePickerSheetController.framework */;
+			productReference = 000000001500 /* Pods_ImagePickerSheetController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		000000000C40 /* Pods-ImagePickerSheetControllerTests */ = {
+		000000001620 /* Pods-ImagePickerSheetControllerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 000000000C50 /* Build configuration list for PBXNativeTarget "Pods-ImagePickerSheetControllerTests" */;
+			buildConfigurationList = 000000001630 /* Build configuration list for PBXNativeTarget "Pods-ImagePickerSheetControllerTests" */;
 			buildPhases = (
-				000000000C90 /* Headers */,
-				000000000CA0 /* Sources */,
-				000000000CB0 /* Frameworks */,
-				000000000CC0 /* Resources */,
+				000000001670 /* Headers */,
+				000000001680 /* Sources */,
+				000000001690 /* Frameworks */,
+				0000000016A0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				000000000E60 /* PBXTargetDependency */,
+				000000001840 /* PBXTargetDependency */,
+				000000001860 /* PBXTargetDependency */,
 			);
 			name = "Pods-ImagePickerSheetControllerTests";
 			productName = "Pods-ImagePickerSheetControllerTests";
-			productReference = 000000000C80 /* Pods_ImagePickerSheetControllerTests.framework */;
+			productReference = 000000001660 /* Pods_ImagePickerSheetControllerTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -586,29 +879,37 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				000000000530 /* KIF */,
-				000000000AE0 /* Pods-ImagePickerSheetController */,
-				000000000C40 /* Pods-ImagePickerSheetControllerTests */,
+				000000000990 /* KIF */,
+				000000000F40 /* Nimble */,
+				0000000014C0 /* Pods-ImagePickerSheetController */,
+				000000001620 /* Pods-ImagePickerSheetControllerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0000000005B0 /* Resources */ = {
+		000000000A10 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		000000000B60 /* Resources */ = {
+		000000000FC0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		000000000CC0 /* Resources */ = {
+		000000001540 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0000000016A0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -618,77 +919,151 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		000000000590 /* Sources */ = {
+		0000000009F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0000000006C0 /* CAAnimation+KIFAdditions.m in Sources */,
-				0000000006D0 /* CALayer-KIFAdditions.m in Sources */,
-				0000000006E0 /* CGGeometry-KIFAdditions.m in Sources */,
-				0000000005F0 /* IOHIDEvent+KIF.m in Sources */,
-				000000000AD0 /* KIF-dummy.m in Sources */,
-				000000000600 /* KIFAccessibilityEnabler.m in Sources */,
-				000000000610 /* KIFSystemTestActor.m in Sources */,
-				000000000620 /* KIFTestActor.m in Sources */,
-				000000000630 /* KIFTestCase.m in Sources */,
-				000000000640 /* KIFTestStepValidation.m in Sources */,
-				000000000650 /* KIFTextInputTraitsOverrides.m in Sources */,
-				000000000660 /* KIFTypist.m in Sources */,
-				000000000670 /* KIFUIObject.m in Sources */,
-				000000000680 /* KIFUITestActor-ConditionalTests.m in Sources */,
-				000000000690 /* KIFUITestActor.m in Sources */,
-				0000000006A0 /* KIFUIViewTestActor.m in Sources */,
-				0000000006F0 /* NSBundle-KIFAdditions.m in Sources */,
-				000000000700 /* NSError-KIFAdditions.m in Sources */,
-				000000000710 /* NSException-KIFAdditions.m in Sources */,
-				000000000720 /* NSFileManager-KIFAdditions.m in Sources */,
-				000000000730 /* NSPredicate+KIFAdditions.m in Sources */,
-				000000000740 /* NSString+KIFAdditions.m in Sources */,
-				000000000750 /* UIAccessibilityElement-KIFAdditions.m in Sources */,
-				000000000760 /* UIApplication-KIFAdditions.m in Sources */,
-				0000000006B0 /* UIAutomationHelper.m in Sources */,
-				000000000770 /* UIEvent+KIFAdditions.m in Sources */,
-				000000000780 /* UIScreen+KIFAdditions.m in Sources */,
-				000000000790 /* UIScrollView-KIFAdditions.m in Sources */,
-				0000000007A0 /* UITableView-KIFAdditions.m in Sources */,
-				0000000007B0 /* UITouch-KIFAdditions.m in Sources */,
-				0000000007C0 /* UIView-Debugging.m in Sources */,
-				0000000007D0 /* UIView-KIFAdditions.m in Sources */,
-				0000000007E0 /* UIWindow-KIFAdditions.m in Sources */,
-				0000000007F0 /* XCTestCase-KIFAdditions.m in Sources */,
+				000000000B20 /* CAAnimation+KIFAdditions.m in Sources */,
+				000000000B30 /* CALayer-KIFAdditions.m in Sources */,
+				000000000B40 /* CGGeometry-KIFAdditions.m in Sources */,
+				000000000A50 /* IOHIDEvent+KIF.m in Sources */,
+				000000000F30 /* KIF-dummy.m in Sources */,
+				000000000A60 /* KIFAccessibilityEnabler.m in Sources */,
+				000000000A70 /* KIFSystemTestActor.m in Sources */,
+				000000000A80 /* KIFTestActor.m in Sources */,
+				000000000A90 /* KIFTestCase.m in Sources */,
+				000000000AA0 /* KIFTestStepValidation.m in Sources */,
+				000000000AB0 /* KIFTextInputTraitsOverrides.m in Sources */,
+				000000000AC0 /* KIFTypist.m in Sources */,
+				000000000AD0 /* KIFUIObject.m in Sources */,
+				000000000AE0 /* KIFUITestActor-ConditionalTests.m in Sources */,
+				000000000AF0 /* KIFUITestActor.m in Sources */,
+				000000000B00 /* KIFUIViewTestActor.m in Sources */,
+				000000000B50 /* NSBundle-KIFAdditions.m in Sources */,
+				000000000B60 /* NSError-KIFAdditions.m in Sources */,
+				000000000B70 /* NSException-KIFAdditions.m in Sources */,
+				000000000B80 /* NSFileManager-KIFAdditions.m in Sources */,
+				000000000B90 /* NSPredicate+KIFAdditions.m in Sources */,
+				000000000BA0 /* NSString+KIFAdditions.m in Sources */,
+				000000000BB0 /* UIAccessibilityElement-KIFAdditions.m in Sources */,
+				000000000BC0 /* UIApplication-KIFAdditions.m in Sources */,
+				000000000B10 /* UIAutomationHelper.m in Sources */,
+				000000000BD0 /* UIEvent+KIFAdditions.m in Sources */,
+				000000000BE0 /* UIScreen+KIFAdditions.m in Sources */,
+				000000000BF0 /* UIScrollView-KIFAdditions.m in Sources */,
+				000000000C00 /* UITableView-KIFAdditions.m in Sources */,
+				000000000C10 /* UITouch-KIFAdditions.m in Sources */,
+				000000000C20 /* UIView-Debugging.m in Sources */,
+				000000000C30 /* UIView-KIFAdditions.m in Sources */,
+				000000000C40 /* UIWindow-KIFAdditions.m in Sources */,
+				000000000C50 /* XCTestCase-KIFAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		000000000B40 /* Sources */ = {
+		000000000FA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				000000000C30 /* Pods-ImagePickerSheetController-dummy.m in Sources */,
+				000000000FE0 /* AdapterProtocols.swift in Sources */,
+				0000000010B0 /* AllPass.swift in Sources */,
+				000000000FF0 /* AssertionDispatcher.swift in Sources */,
+				000000001000 /* AssertionRecorder.swift in Sources */,
+				0000000012A0 /* Async.swift in Sources */,
+				0000000010C0 /* AsyncMatcherWrapper.swift in Sources */,
+				0000000010D0 /* BeAKindOf.swift in Sources */,
+				0000000010E0 /* BeAnInstanceOf.swift in Sources */,
+				0000000010F0 /* BeCloseTo.swift in Sources */,
+				000000001100 /* BeEmpty.swift in Sources */,
+				000000001110 /* BeginWith.swift in Sources */,
+				000000001120 /* BeGreaterThan.swift in Sources */,
+				000000001130 /* BeGreaterThanOrEqualTo.swift in Sources */,
+				000000001140 /* BeIdenticalTo.swift in Sources */,
+				000000001150 /* BeLessThan.swift in Sources */,
+				000000001160 /* BeLessThanOrEqual.swift in Sources */,
+				000000001170 /* BeLogical.swift in Sources */,
+				000000001180 /* BeNil.swift in Sources */,
+				000000001190 /* BeVoid.swift in Sources */,
+				0000000011A0 /* Contain.swift in Sources */,
+				0000000011B0 /* ContainElementSatisfying.swift in Sources */,
+				000000001370 /* CwlBadInstructionException.swift in Sources */,
+				000000001380 /* CwlCatchBadInstruction.swift in Sources */,
+				000000001340 /* CwlCatchException.m in Sources */,
+				000000001330 /* CwlCatchException.swift in Sources */,
+				000000001390 /* CwlDarwinDefinitions.swift in Sources */,
+				000000001350 /* CwlMachBadInstructionHandler.m in Sources */,
+				000000001050 /* DSL+Wait.swift in Sources */,
+				0000000012F0 /* DSL.m in Sources */,
+				000000001060 /* DSL.swift in Sources */,
+				0000000011C0 /* EndWith.swift in Sources */,
+				0000000011D0 /* Equal.swift in Sources */,
+				0000000012B0 /* Errors.swift in Sources */,
+				000000001070 /* Expectation.swift in Sources */,
+				000000001080 /* ExpectationMessage.swift in Sources */,
+				000000001090 /* Expression.swift in Sources */,
+				0000000010A0 /* FailureMessage.swift in Sources */,
+				0000000012C0 /* Functional.swift in Sources */,
+				0000000011E0 /* HaveCount.swift in Sources */,
+				000000001360 /* mach_excServer.c in Sources */,
+				0000000011F0 /* Match.swift in Sources */,
+				000000001200 /* MatcherFunc.swift in Sources */,
+				000000001210 /* MatcherProtocols.swift in Sources */,
+				000000001220 /* MatchError.swift in Sources */,
+				0000000014B0 /* Nimble-dummy.m in Sources */,
+				000000001010 /* NimbleEnvironment.swift in Sources */,
+				000000001020 /* NimbleXCTestHandler.swift in Sources */,
+				000000001300 /* NMBExceptionCapture.m in Sources */,
+				000000001030 /* NMBExpectation.swift in Sources */,
+				000000001040 /* NMBObjCMatcher.swift in Sources */,
+				000000001310 /* NMBStringify.m in Sources */,
+				000000001230 /* PostNotification.swift in Sources */,
+				000000001240 /* Predicate.swift in Sources */,
+				000000001250 /* RaisesException.swift in Sources */,
+				000000001260 /* SatisfyAnyOf.swift in Sources */,
+				0000000012D0 /* SourceLocation.swift in Sources */,
+				0000000012E0 /* Stringers.swift in Sources */,
+				000000001270 /* ThrowAssertion.swift in Sources */,
+				000000001280 /* ThrowError.swift in Sources */,
+				000000001290 /* ToSucceed.swift in Sources */,
+				000000001320 /* XCTestObservationCenter+Register.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		000000000CA0 /* Sources */ = {
+		000000001520 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				000000000DA0 /* Pods-ImagePickerSheetControllerTests-dummy.m in Sources */,
+				000000001610 /* Pods-ImagePickerSheetController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000001680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000001780 /* Pods-ImagePickerSheetControllerTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		000000000E40 /* PBXTargetDependency */ = {
+		000000001820 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KIF;
-			target = 000000000530 /* KIF */;
-			targetProxy = 000000000E30 /* PBXContainerItemProxy */;
+			target = 000000000990 /* KIF */;
+			targetProxy = 000000001810 /* PBXContainerItemProxy */;
 		};
-		000000000E60 /* PBXTargetDependency */ = {
+		000000001840 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KIF;
-			target = 000000000530 /* KIF */;
-			targetProxy = 000000000E50 /* PBXContainerItemProxy */;
+			target = 000000000990 /* KIF */;
+			targetProxy = 000000001830 /* PBXContainerItemProxy */;
+		};
+		000000001860 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Nimble;
+			target = 000000000F40 /* Nimble */;
+			targetProxy = 000000001850 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -816,9 +1191,9 @@
 			};
 			name = Release;
 		};
-		000000000550 /* Release */ = {
+		0000000009B0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 000000000A60 /* KIF.xcconfig */;
+			baseConfigurationReference = 000000000EC0 /* KIF.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -840,6 +1215,71 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0000000009C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 000000000EC0 /* KIF.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KIF/KIF-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KIF/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KIF/KIF.modulemap";
+				PRODUCT_MODULE_NAME = KIF;
+				PRODUCT_NAME = KIF;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		000000000F60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 000000001440 /* Nimble.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Nimble/Nimble-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Nimble/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Nimble/Nimble.modulemap";
+				PRODUCT_MODULE_NAME = Nimble;
+				PRODUCT_NAME = Nimble;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -848,9 +1288,9 @@
 			};
 			name = Release;
 		};
-		000000000560 /* Debug */ = {
+		000000000F70 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 000000000A60 /* KIF.xcconfig */;
+			baseConfigurationReference = 000000001440 /* Nimble.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -861,17 +1301,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KIF/KIF-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KIF/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Nimble/Nimble-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Nimble/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KIF/KIF.modulemap";
-				PRODUCT_MODULE_NAME = KIF;
-				PRODUCT_NAME = KIF;
+				MODULEMAP_FILE = "Target Support Files/Nimble/Nimble.modulemap";
+				PRODUCT_MODULE_NAME = Nimble;
+				PRODUCT_NAME = Nimble;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -879,9 +1320,9 @@
 			};
 			name = Debug;
 		};
-		000000000B00 /* Release */ = {
+		0000000014E0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 000000000B90 /* Pods-ImagePickerSheetController.release.xcconfig */;
+			baseConfigurationReference = 000000001570 /* Pods-ImagePickerSheetController.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -913,9 +1354,9 @@
 			};
 			name = Release;
 		};
-		000000000B10 /* Debug */ = {
+		0000000014F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 000000000BA0 /* Pods-ImagePickerSheetController.debug.xcconfig */;
+			baseConfigurationReference = 000000001580 /* Pods-ImagePickerSheetController.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -946,9 +1387,9 @@
 			};
 			name = Debug;
 		};
-		000000000C60 /* Release */ = {
+		000000001640 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 000000000CF0 /* Pods-ImagePickerSheetControllerTests.release.xcconfig */;
+			baseConfigurationReference = 0000000016D0 /* Pods-ImagePickerSheetControllerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -973,6 +1414,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -980,9 +1423,9 @@
 			};
 			name = Release;
 		};
-		000000000C70 /* Debug */ = {
+		000000001650 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 000000000D00 /* Pods-ImagePickerSheetControllerTests.debug.xcconfig */;
+			baseConfigurationReference = 0000000016E0 /* Pods-ImagePickerSheetControllerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1007,6 +1450,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1025,29 +1470,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		000000000540 /* Build configuration list for PBXNativeTarget "KIF" */ = {
+		0000000009A0 /* Build configuration list for PBXNativeTarget "KIF" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				000000000560 /* Debug */,
-				000000000550 /* Release */,
+				0000000009C0 /* Debug */,
+				0000000009B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		000000000AF0 /* Build configuration list for PBXNativeTarget "Pods-ImagePickerSheetController" */ = {
+		000000000F50 /* Build configuration list for PBXNativeTarget "Nimble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				000000000B10 /* Debug */,
-				000000000B00 /* Release */,
+				000000000F70 /* Debug */,
+				000000000F60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		000000000C50 /* Build configuration list for PBXNativeTarget "Pods-ImagePickerSheetControllerTests" */ = {
+		0000000014D0 /* Build configuration list for PBXNativeTarget "Pods-ImagePickerSheetController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				000000000C70 /* Debug */,
-				000000000C60 /* Release */,
+				0000000014F0 /* Debug */,
+				0000000014E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000000001630 /* Build configuration list for PBXNativeTarget "Pods-ImagePickerSheetControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000001650 /* Debug */,
+				000000001640 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
