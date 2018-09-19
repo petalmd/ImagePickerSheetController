@@ -37,7 +37,7 @@ extension KIFUITestActor {
     
     // Needed because UICollectionView fails to select an item due to a reason I don't quite grasp
     func tapImagePreviewAtIndexPath(_ indexPath: IndexPath, inCollectionViewWithAccessibilityIdentifier collectionViewIdentifier: String) {
-        let collectionView = waitForView(withAccessibilityIdentifier: collectionViewIdentifier) as! UICollectionView
+        let collectionView = waitForView(withAccessibilityLabel: collectionViewIdentifier) as! UICollectionView
         
         let cellAttributes = collectionView.layoutAttributesForItem(at: indexPath)
         let contentOffset = CGPoint(x: cellAttributes!.frame.minX-collectionView.contentInset.left, y: 0)

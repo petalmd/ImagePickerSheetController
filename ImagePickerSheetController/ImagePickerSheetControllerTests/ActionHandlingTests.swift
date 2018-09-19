@@ -81,7 +81,7 @@ class ActionHandlingTests: ImagePickerSheetControllerTests {
     func testCancelActionHandlingWhenTappingBackground() {
         presentImagePickerSheetController()
         
-        tester().tapView(withAccessibilityIdentifier: imageControllerBackgroundViewIdentifier)
+        tester().tapView(withAccessibilityLabel: imageControllerBackgroundViewIdentifier)
         
         expect(self.defaultActionCalled) == 0
         expect(self.defaultSecondaryActionCalled) == 0

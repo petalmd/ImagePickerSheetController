@@ -43,7 +43,7 @@ class ImagePickerSheetControllerTests: XCTestCase {
     
     func presentImagePickerSheetController(_ animated: Bool = false) {
         rootViewController.present(imageController, animated: animated, completion: nil)
-        tester().waitForView(withAccessibilityIdentifier: imageControllerViewIdentifier)
+        tester().waitForView(withAccessibilityLabel: imageControllerViewIdentifier)
     }
     
 }

@@ -14,7 +14,7 @@ class PresentationTests: ImagePickerSheetControllerTests {
     func testPresentation() {
         presentImagePickerSheetController(true)
         tester().acknowledgeSystemAlert()
-        tester().waitForView(withAccessibilityIdentifier: imageControllerViewIdentifier)
+        tester().waitForView(withAccessibilityLabel: imageControllerViewIdentifier)
     }
     
 }

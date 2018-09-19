@@ -23,17 +23,17 @@ class DismissalTests: ImagePickerSheetControllerTests {
     
     func testDismissalByTappingDefaultAction() {
         tester().tapView(withAccessibilityLabel: defaultActionTitle)
-        tester().waitForAbsenceOfView(withAccessibilityIdentifier: imageControllerViewIdentifier)
+        tester().waitForAbsenceOfView(withAccessibilityLabel: imageControllerViewIdentifier)
     }
     
     func testDismissalByTappingCancelAction() {
         tester().tapView(withAccessibilityLabel: cancelActionTitle)
-        tester().waitForAbsenceOfView(withAccessibilityIdentifier: imageControllerViewIdentifier)
+        tester().waitForAbsenceOfView(withAccessibilityLabel: imageControllerViewIdentifier)
     }
     
     func testDismissalByTappingBackground() {
-        tester().tapView(withAccessibilityIdentifier: imageControllerBackgroundViewIdentifier)
-        tester().waitForAbsenceOfView(withAccessibilityIdentifier: imageControllerViewIdentifier)
+        tester().tapView(withAccessibilityLabel: imageControllerBackgroundViewIdentifier)
+        tester().waitForAbsenceOfView(withAccessibilityLabel: imageControllerViewIdentifier)
     }
     
 }

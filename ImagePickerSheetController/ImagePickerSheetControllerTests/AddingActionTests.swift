@@ -17,7 +17,7 @@ class AddingActionTests: ImagePickerSheetControllerTests {
         imageController.addAction(ImagePickerAction(title: "Cancel1", style: .cancel, handler: { _ in }))
         imageController.addAction(ImagePickerAction(title: "Cancel2", style: .cancel, handler: { _ in }))
         
-        expect(self.imageController.actions.filter { $0.style == .Cancel }.count) == 1
+        expect(self.imageController.actions.filter { $0.style == .cancel }.count) == 1
     }
     
     func testDisplayOfAddedActions() {
